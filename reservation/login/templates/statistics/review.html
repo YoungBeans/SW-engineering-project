@@ -5,47 +5,159 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="author" content="colorlib.com">
-<link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet" />
 <link href="{% static 'main/css/main.css' %}" rel="stylesheet" />
 
 
 <!-- Page Content -->
-  <br>
-  </br></br>
-  <div class="s006">
-    <form>
-      <fieldset>
-        <legend>Search For all of Reviews</legend>
-        <div class="inner-form">
-          <div class="input-field">
-            <button class="btn-search" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-                </path>
-              </svg>
-            </button>
-            <input id="search" type="text" name="search" placeholder="" value="토시살" />
+<br>
+</br></br>
+<div class="s010">
+  <form action="{% url 'search_review' %}" method="POST">{% csrf_token %}
+    <div class="inner-form">
+      <div class="basic-search">
+        <div class="input-field">
+          <input id="search" type="text" placeholder="Type Keywords" name="keyword"/>
+          <div class="icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+              </path>
+            </svg>
           </div>
         </div>
-        <div class="suggestion-wrap">
-          <span>마늘 갈비살</span>
-          <span>맬콤 갈비살</span>
-          <span>갈국수</span>
-          <span>새우구이</span>
-          <span>민찌 비빔밥</span>
+      </div>
+      <div class="advance-search">
+        <span class="desc">ADVANCED SEARCH</span>
+        <div class="row">
+          <div class="input-field">
+            <div class="input-select">
+              <select data-trigger="" name="menu">
+                <option placeholder="" value="">Menu</option>
+                {% for menus in menu %}
+                <option value="{{menus.food.food}}" name="menu">{{menus.food.food}}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <div class="input-field">
+            <div class="group-btn">
+              <button class="btn-delete" id="delete">RESET</button>
+              <button class="btn-search">SEARCH</button>
+            </div>
+          </div>
         </div>
-      </fieldset>
-    </form>
+      </div>
+    </div>
+  </form>
 </div>
-  <div class="container">
+<script src="{% static 'main/js/extention/choices.js' %}"></script>
+<script>
+  const customSelects = document.querySelectorAll("select");
+  const deleteBtn = document.getElementById('delete')
+  const choices = new Choices('select',
+    {
+      searchEnabled: false,
+      itemSelectText: '',
+      removeItemButton: true,
+    });
+  for (let i = 0; i < customSelects.length; i++) {
+    customSelects[i].addEventListener('addItem', function (event) {
+      if (event.detail.value) {
+        let parent = this.parentNode.parentNode
+        parent.classList.add('valid')
+        parent.classList.remove('invalid')
+      }
+      else {
+        let parent = this.parentNode.parentNode
+        parent.classList.add('invalid')
+        parent.classList.remove('valid')
+      }
+    }, false);
+  }
+  deleteBtn.addEventListener("click", function (e) {
+    e.preventDefault()
+    const deleteAll = document.querySelectorAll('.choices__button')
+    for (let i = 0; i < deleteAll.length; i++) {
+      deleteAll[i].click();
+    }
+  });
+
+</script>
+<div class="container">
+
+  <!-- /.row -->
+
+  <!-- Portfolio Section -->
+  <br>
+  <div class="row">
+      <div class="col-lg-4 col-sm-6" style="margin :auto; align-content: center;">
+          <a href="#reviews" class="btn btn-primary"
+            data-whatever="@getbootstrap">@All_Review</a>
+        </div>
+    <div class="col-lg-4 col-sm-6" style="margin :auto; align-content: center;">
+      {% if request.session.manager == False %}
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+        data-whatever="@getbootstrap">Open modal for @Write_Review</button>
+        {% endif %}
+    </div>
+    <div class="col-lg-4 col-sm-6" style="margin :auto">
+      {% if request.session.userid and request.session.manager == False %}
+        <a href="/login/user/review/myreview/{{userpk}}/" class="btn btn-primary"
+          data-whatever="@getbootstrap">@My_Review</a>
+          {% endif %}
+      </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="{% static 'main/img/main_meat4.jpg' %}" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">마늘 갈비살</a>
+          </h4>
+          <p class="card-text">갈풍집의 대표메뉴 마늘양념갈비살!!
+            달달하고 고소한 마늘향이 가득한 남녀노소 누구나 좋아하는 갈풍만의 대표메뉴입니다.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="{% static 'main/img/main_meat2.jpg' %}" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">맬콤 갈비살</a>
+          </h4>
+          <p class="card-text">갈풍만의 특제소스로 양념한 갈비살!!
+            단짠단짠과 기분좋은 매콤함을 느낄 수 있는 시그니쳐 메뉴입니다.
+            많이 매운맛이 아니라 누구나 잘 드실 수 있는 갈비살 구이입니다.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="{% static 'main/img/main_meat3.jpg' %}" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">배고프다</a>
+          </h4>
+          <p class="card-text">당신은 고기가 먹고싶어집니다</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
   <!-- Marketing Icons Section -->
-  <div class="row"></div>
+  <br>
+  <div class="row">
+    <h1 id="reviews" style="text-align: center;">Reviews</h1>
+  </div>
   <div class="row">
     {% for review in reviews %}
     <div class="col-lg-4 mb-4">
       <div class="card h-100">
-        <h4 class="card-header">{{review.title }}</h4>
+        <h4 class="card-header">{{ review.title }}</h4>
         <div class="card-body">
           <p class="card-text">{{ review.content }}</p>
         </div>
@@ -56,105 +168,86 @@
             </div>
           </div>
           <div class="starRev">
-              <span  class="starR on" >별1<input type="radio"  value="1" name="star"></span>
-              <span  class="starR" >별2<input type="radio"  value="2" name="star"></span>
-              <span  class="starR" >별3<input type="radio"  value="3" name="star"></span>
-              <span  class="starR" >별4<input type="radio"  value="4" name="star"></span>
-              <span  class="starR" >별5<input type="radio"  value="5" name="star"></span>
-            </div>
+            <span class="starR {% if review.star >= 1 %} on {% endif %}">별1</span>
+            <span class="starR {% if review.star >= 2 %} on {% endif %}">별2</span>
+            <span class="starR {% if review.star >= 3 %} on {% endif %}">별3</span>
+            <span class="starR {% if review.star >= 4 %} on {% endif %}">별4</span>
+            <span class="starR {% if review.star >= 5 %} on {% endif %}">별5</span>
+          </div>
         </div>
       </div>
     </div>
     {% endfor %}
     {%if reviews.has_previous%}
     <a href="?page=1">First</a>
-    <a href="?page={{posts.previous_page_number}}">Previous</a>
+    <a href="?page={{reviews.previous_page_number}}">Previous</a>
     {%endif%}
-    
+
     <span>{{reviews.number}}</span>
     <span>of</span>
     <span>{{reviews.paginator.num_pages}}</span>
-    
+
     {%if reviews.has_next%}
-    <a href="?page={{posts.next_page_number}}">Next</a>
-    <a href="?page={{posts.paginator.num_pages}}">Last</a>
+    <a href="?page={{reviews.next_page_number}}">Next</a>
+    <a href="?page={{reviews.paginator.num_pages}}">Last</a>
     {%endif%}
   </div>
 </div>
-  <!-- /.row -->
 
-  <!-- Portfolio Section
-  <h2>포토 리뷰 및 평점</h2>
 
-  <div class="row">
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">배고프다</a>
-          </h4>
-          <p class="card-text">고기가 먹고싶다</p>
-        </div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">리뷰 작성</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Project Two</a>
-          </h4>
-          <p class="card-text">.</p>
-        </div>
+      <div class="modal-body">
+        <form action="{% url 'write_review' %}" method="POST"> {% csrf_token %}
+          <div class="from_group">
+            <label for="recipient-name" class="col-form-label">제목</label>
+            <input type="text" class="form-control" id="recipient-name" name="title">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">메뉴 결정</label>
+            <select data-trigger="" name="menu">
+              <option placeholder="" value="">Menu</option>
+              {% for menus in menu %}
+              <option value="{{menus.food.food}}" name="menu">{{menus.food.food}}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">한줄평</label>
+            <textarea class="form-control" id="message-text" name="content"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">평점</label>
+            <div class="starRev">
+              <span class="input starR on">별1</span>
+              <span class="input starR" >별2</span>
+              <span class="input starR" >별3</span>
+              <span class="input starR" >별4</span>
+              <span class="input starR">별5</span>
+              <input id="starInput" type="hidden" value="0" name="star">
+            </div>
+          </div>
       </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Project Three</a>
-          </h4>
-          <p class="card-text">.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Project Four</a>
-          </h4>
-          <p class="card-text">.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Project Five</a>
-          </h4>
-          <p class="card-text">.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Project Six</a>
-          </h4>
-          <p class="card-text">.</p>
-        </div>
+
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        <button type="submit" class="btn btn-primary">저장</button>
+        </form>
       </div>
     </div>
   </div>
 </div>
-</div> -->
-<!-- /.row -->
+
+
+
 {% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block header %}
+<link href="{% static 'main/css/main.css' %}" rel="stylesheet" />
+<div class="container" style="margin-top:10%;">
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">제목</th>
+            <th scope="col">메뉴이름</th>
+            <th scope="col">평점</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for review in reviews %}
+        <tr>
+            <td>{{review.title}}</td>
+            <td><a class="js-scroll-trigger" href="/login/user/review/myreview/modify/{{review.pk}}/">
+                    <div>{{review.menu.food.food}}</div>
+                </a></td>
+            <td>
+                <div class="starRev">
+                    <span class="starR {% if review.star >= 1 %}on{% endif %}">별1</span>
+                    <span class="starR {% if review.star >= 2 %}on{% endif %}">별2</span>
+                    <span class="starR {% if review.star >= 3 %}on{% endif %}">별3</span>
+                    <span class="starR {% if review.star >= 4 %}on{% endif %}">별4</span>
+                    <span class="starR {% if review.star >= 5 %}on{% endif %}">별5</span>
+                </div>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<div class="pagination justify-content-center">
+    <span class="step-links">
+        {% if reviews.has_previous %}
+        <a href="?page=1">&laquo; first</a>
+        <a href="?page={{ reviews.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ reviews.number }} of {{ reviews.paginator.num_pages }}.
+        </span>
+
+        {% if reviews.has_next %}
+        <a href="?page={{ reviews.next_page_number }}">next</a>
+        <a href="?page={{ reviews.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+</div>
+{% endblock %}

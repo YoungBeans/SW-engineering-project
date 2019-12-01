@@ -47,3 +47,4 @@ class Review(models.Model) :
     title = models.CharField(max_length=20)
     content = models.TextField()
     menu = models.ForeignKey("reserv.Menu", on_delete=models.CASCADE, blank=True, null=True)
+    star = models.IntegerField(default=0)

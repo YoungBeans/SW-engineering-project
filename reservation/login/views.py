@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.sessions.models import Session
 from .models import *
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from reserv.models import Menu, Food
 
 # Create your views here.
 
@@ -103,7 +104,9 @@ def change_pwd(request) :
 
 def  show_review(request) :
     reviews = Review.objects.all()
-    paginator = Paginator(reviews, 5)
+    paginator = Paginator(reviews, 6)
+
+    menu = Menu.objects.all()
 
     page = request.GET.get('page')
     try :
@@ -112,9 +115,118 @@ def  show_review(request) :
         reviews = paginator.page(1)
     except EmptyPage :
         reviews = paginator.page(paginator.num_pages)
-    
-    context = {"reviews" : reviews}
-    return render(request, "statistics/review.html", context)
+    if request.session.get("userid") :
+        user = get_object_or_404(User, idName=request.session.get("userid"))
+        userpk = user.pk
+        context = {"reviews" : reviews, "menu" : menu, "userpk":userpk}
+        return render(request, "statistics/review.html", context)
+    else :
+        context = {"reviews" : reviews, "menu" : menu}
+        return render(request, "statistics/review.html", context)
 
 # def test_show_review(request) :
+
+
+def write_review(request) :
+    menus = request.POST.get("menu")
+    star = request.POST.get("star")
+    title = request.POST.get("title")
+    content = request.POST.get("content")
+    userid = request.session.get("userid")
+    user = get_object_or_404(User, idName=userid)
+    # food = Food.objects.get(food=menus)
+    food = get_object_or_404(Food, food=menus)
+    menu = get_object_or_404(Menu, food=food)
+
+    review = Review (
+        user = user,
+        title = title,
+        content = content,
+        menu = menu,
+        star = star
+    )
+
+    review.save()
+
+    return redirect("show_review")
+
+def my_review(request, pk) :
+    if request.session.get("userid") :
+
+        user = get_object_or_404(User, pk=pk)
+
+        reviews = Review.objects.filter(user = user)
+        paginator = Paginator(reviews, 5)
+        page = request.GET.get('page')
+        try :
+            reviews = paginator.page(page)
+        except PageNotAnInteger :
+            reviews = paginator.page(1)
+        except EmptyPage :
+            reviews = paginator.page(paginator.num_pages)
+        
+        context = {"reviews" : reviews}
+        return render(request, "statistics/myreview.html", context)
     
+    return redirect("home")
+
+def modify_review(request, pk) :
+    if request.method == "POST" :
+        menus = request.POST.get("menu")
+        star = request.POST.get("star")
+        title = request.POST.get("title")
+        content = request.POST.get("content")
+        userid = request.session.get("userid")  
+        user = get_object_or_404(User, idName=userid)
+        if user :
+            food = get_object_or_404(Food, food=menus)
+            # food = Food.objects.get(food=menus)
+            menu = get_object_or_404(Menu, food=food)
+
+            review = get_object_or_404(Review, pk=pk)
+
+            review.title = title
+            review.content = content
+            review.menu = menu
+            review.star = star
+
+            review.save()
+
+            return redirect("my_review", pk=user.pk)
+        else :
+            return redirect("show_review")
+    else :
+        review = get_object_or_404(Review, pk=pk)
+
+        menus = Menu.objects.all()
+
+        context={"review" : review, "menus" : menus}
+        return render(request, "statistics/modify_review.html", context)
+
+
+def search_review(request) :
+    if request.POST.get("menu") and request.POST.get("keyword") :
+        food = request.POST.get("menu")
+        keyword = request.POST.get("keyword")
+
+        foods = get_object_or_404(Food, food=food)
+        menu = get_object_or_404(Menu, food=foods)
+
+        reviews = Review.objects.filter(menu=menu, title__icontains=keyword, content__contains=keyword)
+
+        return render(request, "statistics/search_review.html", {"reviews" : reviews})
+    elif request.POST.get("menu") :
+        food = request.POST.get("menu")
+
+        foods = get_object_or_404(Food, food=food)
+        menu = get_object_or_404(Menu, food=foods)
+
+        reviews = Review.objects.filter(menu=menu)
+
+        return render(request, "statistics/search_review.html", {"reviews" : reviews})
+    elif request.POST.get("keyword") :
+        keyword = request.POST.get("keyword")
+
+        reviews = Review.objects.filter(title__icontains=keyword, content__contains=keyword)
+
+        return render(request, "statistics/search_review.html", {"reviews" : reviews})
