@@ -5,13 +5,25 @@ class NormalUser(models.Model) :
     idName = models.CharField(max_length=10)
     password = models.CharField(max_length=16)
     nickName = models.CharField(max_length=10)
+
+    point = models.IntegerField(default = 0)
+
     # str로 변경 
     def __str__(self) :
         return self.nickName
 
 class User(NormalUser) :
     phoneNumber = models.CharField(max_length=12)
+
+    reservCount = models.IntegerField(default = 0)
+    # point = models.IntegerField(default = 0)
     isManager = models.BooleanField(default=False)
+    isVip = models.BooleanField(default=False)
+    isBlack = models.BooleanField(default=False)
+    
+
+    isManager = models.BooleanField(default=False)
+
 
 
 class Point_relate(models.Model) :

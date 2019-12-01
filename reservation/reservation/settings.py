@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'login.apps.LoginConfig',
     'manager.apps.ManagerConfig',
     'el_pagination',
+    'point.apps.PointConfig',
+
 ]
 
 MIDDLEWARE = [

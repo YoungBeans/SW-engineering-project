@@ -9,6 +9,8 @@ class Reservation(models.Model) :
     create_time = models.DateTimeField(auto_now=True)
     reservation_time = models.DateTimeField()
     people = models.IntegerField()
+    isCheck = models.BooleanField(default=False)
+
     
 class Relate_reserv(models.Model) :
     reservate = models.ForeignKey("Reservation", on_delete=models.CASCADE)
