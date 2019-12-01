@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'reserv.apps.ReservConfig',
     'login.apps.LoginConfig',
     'manager.apps.ManagerConfig',
-    'el_pagination',
     'point.apps.PointConfig',
 
 ]
