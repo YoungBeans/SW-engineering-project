@@ -1,5 +1,4 @@
 from django.db import models
-
 # Create your models here.
 
 class NormalUser(models.Model) :
@@ -15,6 +14,9 @@ class User(NormalUser) :
     isManager = models.BooleanField(default=False)
 
 
+class Point_relate(models.Model) :
+    point = models.IntegerField()
+
 class Location(models.Model) :
     city = models.CharField(max_length=30)
     # str로 변경 
@@ -27,3 +29,9 @@ class Restaurant(models.Model) :
     user = models.ForeignKey("User", on_delete=models.CASCADE)
     max_customer = models.IntegerField(blank=True, null=True)
     current_customer = models.IntegerField(default=0)
+
+class Review(models.Model) :
+    user = models.ForeignKey("User", on_delete=models.CASCADE)
+    title = models.CharField(max_length=20)
+    content = models.TextField()
+    menu = models.ForeignKey("reserv.Menu", on_delete=models.CASCADE, blank=True, null=True)

@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.sessions.models import Session
 from .models import *
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 # Create your views here.
 
@@ -65,8 +66,7 @@ def login(request) :
             return render(request, "login/login.html", {"errMsg" : errMsg})
 
     elif request.session.get('userid') :
-        errMsg = "이미 로그인 중"
-        return redirect("login", errMsg)
+        return redirect("login")
     else :
         return render(request, "login/login.html")
 
@@ -99,3 +99,22 @@ def change_pwd(request) :
     else :
         errMsg = "please check password"
         return render(request, "login/change.html", {"errMsg" : errMsg})
+
+
+def  show_review(request) :
+    reviews = Review.objects.all()
+    paginator = Paginator(reviews, 5)
+
+    page = request.GET.get('page')
+    try :
+        reviews = paginator.page(page)
+    except PageNotAnInteger :
+        reviews = paginator.page(1)
+    except EmptyPage :
+        reviews = paginator.page(paginator.num_pages)
+    
+    context = {"reviews" : reviews}
+    return render(request, "statistics/review.html", context)
+
+# def test_show_review(request) :
+    

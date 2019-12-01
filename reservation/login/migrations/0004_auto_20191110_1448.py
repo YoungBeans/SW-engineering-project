@@ -14,6 +14,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='user',
             name='location',
-            field=models.ForeignKey(default='없음!', on_delete=django.db.models.deletion.DO_NOTHING, to='login.Location'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, to='login.Location'),
         ),
     ]

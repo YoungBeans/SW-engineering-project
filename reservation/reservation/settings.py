@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'reserv.apps.ReservConfig',
     'login.apps.LoginConfig',
     'manager.apps.ManagerConfig',
+    'el_pagination',
 ]
 
 MIDDLEWARE = [
@@ -79,10 +80,26 @@ WSGI_APPLICATION = 'reservation.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'software_e',  #mysql
+        'USER': 'root', #root
+        'PASSWORD': 'database', #1234
+        'HOST':  'localhost', #공백으로 냅두면 default localhost
+        'PORT': '3306', #공백으로 냅두면 default 3306
+        'OPTIONS' :
+        {
+            'charset': 'utf8mb4',
+            'init_command': 'SET character_set_connection=utf8mb4;'
+                            'SET collation_connection=utf8mb4_unicode_ci;'
+                            "SET NAMES 'utf8mb4';"
+                            "SET CHARACTER SET utf8mb4;"
+        }
     }
 }
+
+
 
 
 # Password validation

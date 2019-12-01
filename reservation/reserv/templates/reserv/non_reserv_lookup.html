@@ -1,0 +1,68 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block header %}
+{% block reservation %}
+{% endblock %}
+<div class="container">
+    <div style="padding-top :10%">
+        {% if non_user_reservate %}
+        <div class="row">
+            <div class="col-md order-md-1">
+                <h4 class="mb-3">예약 정보</h4>
+                {% for non_user_reserv in non_user_reservate %}
+                <form action="{% url 'non_user_delete' %}" method="POST" class="needs-validation" novalidate>
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-md mb-3">
+                            <label for="reserv_date">예약 희망 일자</label>
+                            <label for="reserv_date">{{non_user_reserv.reservation_time}}</label>
+                        </div>
+                        <div class="col-md mb-3">
+                            <label for="reserv_date">예약자</label>
+                            <label for="reserv_date">{{non_user_reserv.user_name}}</label>
+                        </div>
+                        <div class="col-md mb-3">
+                            <label for="reserv_date">희망 인원</label>
+                            <label for="reserv_date">{{non_user_reserv.people}}</label>
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <input type="hidden" value="{{non_user_reserv.serial_number}}" name="serial_number">
+                    <button class="btn btn-danger btn-lg" type="submit" style="margin-left: 10px; float: right;">예약 취소</button>
+                    <a class="btn btn-success" href="{% url 'non_user_reservate_check' %}" style="float: right;">예약 목록
+                        확인</a>
+                </form>
+                <br>
+                {% endfor %}
+            </div>
+        </div>
+        <br>
+        {% else %}
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Check your reservation</h5>
+                    <form action="{% url 'non_user_reservate_check' %}" method="POST" class="form-signin">
+                        {% csrf_token %}
+                        <div class="form-label-group">
+                            <input type="text" id="ID_input" class="form-control" placeholder="name" name='name'
+                                required autofocus>
+                        </div>
+                        <br>
+
+                        <div class="form-label-group">
+                            <input type="text" id="inputPassword" class="form-control" placeholder="Serial number"
+                                name='serial_number' required>
+                        </div>
+                        <br>
+
+                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+</div>
+{% endblock %}
