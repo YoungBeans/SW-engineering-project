@@ -1,0 +1,1650 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:18:23 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f741710e700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:18:29 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f87c3b60700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:18:35 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fc0290ab700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:18:42 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f334e6c1700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:18:48 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f0357d4a700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:18:57 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f26f89f4700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:19:06 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f69b0b01700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:19:15 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fb1ab4ef700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:19:27 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f0dece06700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:19:39 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f5ab6b2f700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:19:52 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f7e4f12a700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:20:07 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fe6999ac700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:20:22 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f1bc20a8700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:20:37 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f94057e5700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:20:55 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fc17ae30700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:21:13 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f28ed12d700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:21:31 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f433fa60700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:21:53 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fc157bcb700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:22:14 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f74d0cd2700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:22:35 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f1ef231b700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:22:59 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f0daaeca700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:23:23 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fae9b7d0700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:23:47 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007ff491c7c700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:24:15 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fd2b000e700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:24:42 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f88d11dd700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:25:09 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007efe1ad4b700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:25:39 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f5efc5c4700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:26:09 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fd805ae1700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:26:39 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f10761fb700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:27:13 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f349cae0700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:27:46 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f597b426700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:28:19 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f77622ce700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:28:55 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fdc238e9700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:29:31 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f188c1d2700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:30:07 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f158c3d8700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:30:47 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fb6950c7700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:04 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fb219889700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:10 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f59c4c1b700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:16 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fcbfcb6b700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:22 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f3697a07700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:29 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f8a6c5ef700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:38 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f0e84345700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:47 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fa3472ac700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:31:56 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007ff4d9d7f700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:32:08 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f546383c700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:32:20 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fa9e20d5700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:32:32 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fec981a8700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:32:47 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fad6f90e700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:33:03 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f57a9a66700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:33:18 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fb6ccbc3700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:33:36 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f060e3f3700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:33:54 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fe8acacf700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:34:12 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fba5d769700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:34:33 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fdfae9aa700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:34:55 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fa3df57c700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:35:16 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f0b18edf700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:35:40 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fecdfbc4700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:36:04 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007fbf01f3d700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:36:28 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f34d30e6700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:36:55 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f38c6d3c700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:37:22 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f7a3d772700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:37:50 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007efdb0bed700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:38:20 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f3bdbb8c700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:38:50 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007ff886364700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:39:20 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f20ad203700 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Dec  1 20:39:53 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+!!! Python Home is not a directory: /home/ubuntu/src/SW-engineering-project/reservation/myvenv !!!
+Set PythonHome to /home/ubuntu/src/SW-engineering-project/reservation/myvenv
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f6d305c0700 (most recent call first):

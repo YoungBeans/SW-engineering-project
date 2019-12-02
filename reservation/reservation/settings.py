@@ -26,8 +26,9 @@ SECRET_KEY = 'bbfur9mjll#x(h#zy2%wok!op)-gja9*p3@_fb@o(xo46h24yh'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '.ap-northeast-2.compute.amazonaws.com',
+    'ec2-54-180-108-207.ap-northeast-2.compute.amazonaws.com',
+	'54.180.108.207',
+	'localhost',
     ]
 
 
@@ -144,7 +145,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'main','static'),
+    os.path.join(BASE_DIR,  'main',  'static'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
