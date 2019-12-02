@@ -23,18 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'bbfur9mjll#x(h#zy2%wok!op)-gja9*p3@_fb@o(xo46h24yh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-<<<<<<< HEAD
-    'ec2-54-180-108-207.ap-northeast-2.compute.amazonaws.com',
-	'54.180.108.207',
-	'localhost',
-=======
     'localhost',
-    '.ap-northeast-2.compute.amazonaws.com',
-    '*',
->>>>>>> 756ce9e4b6ed38a09946c842ee9b89b29c038d22
+    'ec2-54-180-108-207.ap-northeast-2.compute.amazonaws.com',
+    '54.180.108.207',
     ]
 
 
@@ -51,6 +45,7 @@ INSTALLED_APPS = [
     'reserv.apps.ReservConfig',
     'login.apps.LoginConfig',
     'manager.apps.ManagerConfig',
+    'el_pagination',
     'point.apps.PointConfig',
 
 ]
@@ -151,9 +146,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'main/static'),
+    os.path.join(BASE_DIR, 'static'),
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'main/static')
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
