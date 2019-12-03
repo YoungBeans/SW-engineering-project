@@ -57,7 +57,6 @@ def login(request) :
         for u in us :
             user = u
         
-        print(user)
         if user :
             request.session['userid'] = user.idName
             request.session['manager'] = user.isManager
