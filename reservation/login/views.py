@@ -229,3 +229,11 @@ def search_review(request) :
         reviews = Review.objects.filter(title__icontains=keyword, content__contains=keyword)
 
         return render(request, "statistics/search_review.html", {"reviews" : reviews})
+
+def review_delete(request, pk) :
+    review = get_object_or_404(Review, pk=pk)
+    userid = request.session.get('userid')
+    user = get_object_or_404(User, idName=userid)
+    review.delete()
+
+    return redirect("my_review", pk=user.pk)
