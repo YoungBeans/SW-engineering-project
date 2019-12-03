@@ -9,6 +9,7 @@
             <th scope="col">제목</th>
             <th scope="col">메뉴이름</th>
             <th scope="col">평점</th>
+            <th scope="col">삭제여부</th>
         </tr>
     </thead>
     <tbody>
@@ -26,6 +27,9 @@
                     <span class="starR {% if review.star >= 4 %}on{% endif %}">별4</span>
                     <span class="starR {% if review.star >= 5 %}on{% endif %}">별5</span>
                 </div>
+            </td>
+            <td>
+                <a class="btn btn-danger btn-lg" href="{% url 'review_delete' review.pk %}" >리뷰 삭제</a>
             </td>
         </tr>
         {% endfor %}
