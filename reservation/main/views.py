@@ -8,7 +8,6 @@ def home(request):
     Foods = Menu.objects.all()
     rest = get_object_or_404(Restaurant, name="갈풍집")
     food = get_object_or_404(Food, food='마늘갈비살')
-    print(food.photo)
     context = {"foods" : Foods, "Rest" : rest, 'site' : True}
     
     return render(request, "main/home.html", context)

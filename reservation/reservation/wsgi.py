@@ -7,7 +7,11 @@ For more information on this file, see
 https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 """
 
-import os
+import os, sys
+
+sys.path.append('/home/ubuntu/src/SW-engineering-project/reservation')
+
+sys.path.append('/home/ubuntu/src/SW-engineering-project/myvenv/Lib/site-packages')
 
 from django.core.wsgi import get_wsgi_application
 
