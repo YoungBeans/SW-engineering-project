@@ -213,6 +213,14 @@ def search_review(request) :
 
         reviews = Review.objects.filter(menu=menu, title__icontains=keyword) | Review.objects.filter(menu=menu, content__contains=keyword)
 
+        paginator = Paginator(reviews, 6)
+        page = request.GET.get('page')
+        try :
+            reviews = paginator.page(page)
+        except PageNotAnInteger :
+            reviews = paginator.page(1)
+        except EmptyPage :
+            reviews = paginator.page(paginator.num_pages)
         return render(request, "statistics/search_review.html", {"reviews" : reviews})
     elif request.POST.get("menu") :
         food = request.POST.get("menu")
@@ -221,13 +229,27 @@ def search_review(request) :
         menu = get_object_or_404(Menu, food=foods)
 
         reviews = Review.objects.filter(menu=menu)
-
+        paginator = Paginator(reviews, 6)
+        page = request.GET.get('page')
+        try :
+            reviews = paginator.page(page)
+        except PageNotAnInteger :
+            reviews = paginator.page(1)
+        except EmptyPage :
+            reviews = paginator.page(paginator.num_pages)
         return render(request, "statistics/search_review.html", {"reviews" : reviews})
     elif request.POST.get("keyword") :
         keyword = request.POST.get("keyword")
 
         reviews = Review.objects.filter(title__icontains=keyword) | Review.objects.filter(content__contains=keyword)
-
+        paginator = Paginator(reviews, 6)
+        page = request.GET.get('page')
+        try :
+            reviews = paginator.page(page)
+        except PageNotAnInteger :
+            reviews = paginator.page(1)
+        except EmptyPage :
+            reviews = paginator.page(paginator.num_pages)
         return render(request, "statistics/search_review.html", {"reviews" : reviews})
 
 def review_delete(request, pk) :
