@@ -6,7 +6,7 @@ class NormalUser(models.Model) :
     password = models.CharField(max_length=16)
     nickName = models.CharField(max_length=10)
 
-    point = models.IntegerField(default = 0)
+    point = models.IntegerField(default = 0) # 수정 후 부분
 
     # str로 변경 
     def __str__(self) :

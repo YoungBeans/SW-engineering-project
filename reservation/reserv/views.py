@@ -98,7 +98,7 @@ def reserv_modify(request, pk) :
             errmsg = "date error"
             return render(request, "reserv/reservate.html", {'errmsg' : errmsg})
         # 전체 가능 예약 인원과, 현재 인원에 대해서 초과된 인원 넘겨줌
-        elif galp.current_customer + hopping_member >= galp.max_customer :
+        elif galp.current_customer + people >= galp.max_customer :
             fully_customer = galp.max_customer + galp.current_customer
             errmsg = "Full reservation customer" + fully_customer
             return render(request, "reserv/reservate.html", {"errmsg" : errmsg})
@@ -107,7 +107,7 @@ def reserv_modify(request, pk) :
             errmsg = "Please write right application"
             return render(request, "reserv/reservate.html", {"errmsg" : errmsg})
     except :
-        return redirect("reserv_modify", id=pk)
+        return redirect("reserv_modify", pk=pk)
 
     reservation.save()
 
