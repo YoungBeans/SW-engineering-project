@@ -84,6 +84,7 @@ def reserv_modify(request, pk) :
     
     
     date = datetime.strptime(request.POST['date'], '%Y-%m-%dT%H:%M')
+ 
     people = int(request.POST["many"])
     
     reservation = get_object_or_404(Reservation, pk=pk)
@@ -103,9 +104,9 @@ def reserv_modify(request, pk) :
             errmsg = "Full reservation customer" + fully_customer
             return render(request, "reserv/reservate.html", {"errmsg" : errmsg})
         # 알 수 없는 오류 / 사용자의 잘못된 form 입력
-        else :
-            errmsg = "Please write right application"
-            return render(request, "reserv/reservate.html", {"errmsg" : errmsg})
+    #   else :
+    #       errmsg = "Please write right application"
+     #      return render(request, "reserv/reservate.html", {"errmsg" : errmsg})
     except :
         return redirect("reserv_modify", pk=pk)
 

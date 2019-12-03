@@ -211,7 +211,7 @@ def search_review(request) :
         foods = get_object_or_404(Food, food=food)
         menu = get_object_or_404(Menu, food=foods)
 
-        reviews = Review.objects.filter(menu=menu, title__icontains=keyword, content__contains=keyword)
+        reviews = Review.objects.filter(menu=menu, title__icontains=keyword) | Review.objects.filter(menu=menu, content__contains=keyword)
 
         return render(request, "statistics/search_review.html", {"reviews" : reviews})
     elif request.POST.get("menu") :
@@ -226,7 +226,7 @@ def search_review(request) :
     elif request.POST.get("keyword") :
         keyword = request.POST.get("keyword")
 
-        reviews = Review.objects.filter(title__icontains=keyword, content__contains=keyword)
+        reviews = Review.objects.filter(title__icontains=keyword) | Review.objects.filter(content__contains=keyword)
 
         return render(request, "statistics/search_review.html", {"reviews" : reviews})
 

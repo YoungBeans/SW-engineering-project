@@ -3875,3 +3875,1374 @@ spawned uWSGI worker 13 (pid: 6138, cores: 1)
 spawned uWSGI worker 14 (pid: 6139, cores: 1)
 spawned uWSGI worker 15 (pid: 6140, cores: 1)
 spawned uWSGI worker 16 (pid: 6141, cores: 1)
+{address space usage: 118050816 bytes/112MB} {rss usage: 37494784 bytes/35MB} [pid: 6128|app: 0|req: 1/1] 118.220.119.114 () {42 vars in 845 bytes} [Wed Dec  4 01:12:30 2019] GET /manager/page/ => generated 4926 bytes in 76 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118161408 bytes/112MB} {rss usage: 37621760 bytes/35MB} [pid: 6129|app: 0|req: 1/2] 118.220.119.114 () {42 vars in 867 bytes} [Wed Dec  4 01:12:33 2019] GET /manager/page/restaurant/ => generated 4409 bytes in 77 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117370880 bytes/111MB} {rss usage: 36630528 bytes/34MB} [pid: 6130|app: 0|req: 1/3] 118.220.119.114 () {42 vars in 876 bytes} [Wed Dec  4 01:12:45 2019] GET /manager/page/table_add/ => generated 0 bytes in 63 msecs (HTTP/1.1 302) 5 headers in 292 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118439936 bytes/112MB} {rss usage: 37720064 bytes/35MB} [pid: 6127|app: 0|req: 1/4] 118.220.119.114 () {42 vars in 878 bytes} [Wed Dec  4 01:12:45 2019] GET /admin/manager/table/add/ => generated 0 bytes in 80 msecs (HTTP/1.1 302) 8 headers in 428 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119365632 bytes/113MB} {rss usage: 39030784 bytes/37MB} [pid: 6131|app: 0|req: 1/5] 118.220.119.114 () {42 vars in 915 bytes} [Wed Dec  4 01:12:45 2019] GET /admin/login/?next=/admin/manager/table/add/ => generated 1875 bytes in 120 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118161408 bytes/112MB} {rss usage: 37621760 bytes/35MB} [pid: 6132|app: 0|req: 1/6] 118.220.119.114 () {42 vars in 867 bytes} [Wed Dec  4 01:12:51 2019] GET /manager/page/restaurant/ => generated 4409 bytes in 77 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117370880 bytes/111MB} {rss usage: 36630528 bytes/34MB} [pid: 6133|app: 0|req: 1/7] 118.220.119.114 () {42 vars in 876 bytes} [Wed Dec  4 01:12:53 2019] GET /manager/page/table_add/ => generated 0 bytes in 62 msecs (HTTP/1.1 302) 5 headers in 292 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118439936 bytes/112MB} {rss usage: 37720064 bytes/35MB} [pid: 6134|app: 0|req: 1/8] 118.220.119.114 () {42 vars in 878 bytes} [Wed Dec  4 01:12:53 2019] GET /admin/manager/table/add/ => generated 0 bytes in 78 msecs (HTTP/1.1 302) 8 headers in 428 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119365632 bytes/113MB} {rss usage: 39030784 bytes/37MB} [pid: 6136|app: 0|req: 1/9] 118.220.119.114 () {42 vars in 915 bytes} [Wed Dec  4 01:12:54 2019] GET /admin/login/?next=/admin/manager/table/add/ => generated 1875 bytes in 121 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed Dec  4 01:13:10 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 16:13:15 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf60c60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf60c60 pid: 6261 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6261)
+spawned uWSGI worker 1 (pid: 6284, cores: 1)
+spawned uWSGI worker 2 (pid: 6285, cores: 1)
+spawned uWSGI worker 3 (pid: 6286, cores: 1)
+spawned uWSGI worker 4 (pid: 6287, cores: 1)
+spawned uWSGI worker 5 (pid: 6288, cores: 1)
+spawned uWSGI worker 6 (pid: 6289, cores: 1)
+spawned uWSGI worker 7 (pid: 6290, cores: 1)
+spawned uWSGI worker 8 (pid: 6291, cores: 1)
+spawned uWSGI worker 9 (pid: 6292, cores: 1)
+spawned uWSGI worker 10 (pid: 6293, cores: 1)
+spawned uWSGI worker 11 (pid: 6294, cores: 1)
+spawned uWSGI worker 12 (pid: 6295, cores: 1)
+spawned uWSGI worker 13 (pid: 6296, cores: 1)
+spawned uWSGI worker 14 (pid: 6297, cores: 1)
+spawned uWSGI worker 15 (pid: 6298, cores: 1)
+spawned uWSGI worker 16 (pid: 6299, cores: 1)
+{address space usage: 118226944 bytes/112MB} {rss usage: 37535744 bytes/35MB} [pid: 6287|app: 0|req: 1/1] 61.77.118.91 () {44 vars in 1033 bytes} [Wed Dec  4 01:13:26 2019] GET / => generated 11976 bytes in 79 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119730176 bytes/114MB} {rss usage: 39260160 bytes/37MB} [pid: 6286|app: 0|req: 1/2] 118.220.119.114 () {48 vars in 1081 bytes} [Wed Dec  4 01:13:27 2019] POST /admin/login/?next=/admin/manager/table/add/ => generated 2049 bytes in 258 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118104064 bytes/112MB} {rss usage: 37421056 bytes/35MB} [pid: 6288|app: 0|req: 1/3] 61.77.118.91 () {44 vars in 1030 bytes} [Wed Dec  4 01:13:28 2019] GET /reserv/ => generated 5279 bytes in 74 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118104064 bytes/112MB} {rss usage: 37421056 bytes/35MB} [pid: 6285|app: 0|req: 1/4] 61.77.118.91 () {44 vars in 1037 bytes} [Wed Dec  4 01:13:28 2019] GET /reserv/ => generated 5279 bytes in 75 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118255616 bytes/112MB} {rss usage: 37683200 bytes/35MB} [pid: 6289|app: 0|req: 1/5] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:13:29 2019] GET /reserv/check/ => generated 5278 bytes in 97 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118095872 bytes/112MB} {rss usage: 37380096 bytes/35MB} [pid: 6284|app: 0|req: 1/6] 61.77.118.91 () {44 vars in 1062 bytes} [Wed Dec  4 01:13:30 2019] GET /reserv/modify/6/? => generated 5059 bytes in 77 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119730176 bytes/114MB} {rss usage: 39219200 bytes/37MB} [pid: 6290|app: 0|req: 1/7] 118.220.119.114 () {48 vars in 1081 bytes} [Wed Dec  4 01:13:31 2019] POST /admin/login/?next=/admin/manager/table/add/ => generated 2049 bytes in 256 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118161408 bytes/112MB} {rss usage: 37797888 bytes/36MB} [pid: 6292|app: 0|req: 1/8] 61.77.118.91 () {52 vars in 1278 bytes} [Wed Dec  4 01:13:37 2019] POST /reserv/modify/6/success/ => generated 5401 bytes in 80 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118251520 bytes/112MB} {rss usage: 37683200 bytes/35MB} [pid: 6291|app: 0|req: 1/9] 61.77.118.91 () {44 vars in 1066 bytes} [Wed Dec  4 01:13:45 2019] GET /reserv/check/ => generated 5278 bytes in 97 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118095872 bytes/112MB} {rss usage: 37380096 bytes/35MB} [pid: 6293|app: 0|req: 1/10] 61.77.118.91 () {44 vars in 1062 bytes} [Wed Dec  4 01:13:46 2019] GET /reserv/modify/6/? => generated 5059 bytes in 77 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118140928 bytes/112MB} {rss usage: 37695488 bytes/35MB} [pid: 6295|app: 0|req: 1/11] 61.77.118.91 () {52 vars in 1276 bytes} [Wed Dec  4 01:13:56 2019] POST /reserv/modify/6/success/ => generated 27 bytes in 88 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119443456 bytes/113MB} {rss usage: 38846464 bytes/37MB} [pid: 6294|app: 0|req: 1/12] 118.220.119.114 () {42 vars in 915 bytes} [Wed Dec  4 01:14:07 2019] GET /admin/login/?next=/admin/manager/table/add/ => generated 1875 bytes in 123 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118095872 bytes/112MB} {rss usage: 37613568 bytes/35MB} [pid: 6297|app: 0|req: 1/13] 118.220.119.114 () {42 vars in 867 bytes} [Wed Dec  4 01:14:07 2019] GET /manager/page/restaurant/ => generated 4409 bytes in 79 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118091776 bytes/112MB} {rss usage: 37117952 bytes/35MB} [pid: 6296|app: 0|req: 1/14] 118.220.119.114 () {42 vars in 845 bytes} [Wed Dec  4 01:14:09 2019] GET /manager/page/ => generated 4926 bytes in 76 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./manager/views.py:55: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.User'> QuerySet.
+  paginator = Paginator(list_all,6)
+{address space usage: 118108160 bytes/112MB} {rss usage: 37679104 bytes/35MB} [pid: 6298|app: 0|req: 1/15] 118.220.119.114 () {42 vars in 855 bytes} [Wed Dec  4 01:14:11 2019] GET /manager/page/user/ => generated 11395 bytes in 82 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118091776 bytes/112MB} {rss usage: 37117952 bytes/35MB} [pid: 6299|app: 0|req: 1/16] 118.220.119.114 () {42 vars in 845 bytes} [Wed Dec  4 01:14:42 2019] GET /manager/page/ => generated 4926 bytes in 78 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118226944 bytes/112MB} {rss usage: 37838848 bytes/36MB} [pid: 6287|app: 0|req: 2/17] 118.220.119.114 () {42 vars in 867 bytes} [Wed Dec  4 01:14:43 2019] GET /manager/page/restaurant/ => generated 4409 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 119730176 bytes/114MB} {rss usage: 39260160 bytes/37MB} [pid: 6286|app: 0|req: 2/18] 118.220.119.114 () {42 vars in 876 bytes} [Wed Dec  4 01:14:44 2019] GET /manager/page/table_add/ => generated 0 bytes in 6 msecs (HTTP/1.1 302) 5 headers in 292 bytes (1 switches on core 0)
+{address space usage: 118898688 bytes/113MB} {rss usage: 38449152 bytes/36MB} [pid: 6288|app: 0|req: 2/19] 118.220.119.114 () {42 vars in 878 bytes} [Wed Dec  4 01:14:44 2019] GET /admin/manager/table/add/ => generated 0 bytes in 23 msecs (HTTP/1.1 302) 8 headers in 428 bytes (1 switches on core 0)
+{address space usage: 119701504 bytes/114MB} {rss usage: 39186432 bytes/37MB} [pid: 6285|app: 0|req: 2/20] 118.220.119.114 () {42 vars in 915 bytes} [Wed Dec  4 01:14:44 2019] GET /admin/login/?next=/admin/manager/table/add/ => generated 1875 bytes in 57 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118915072 bytes/113MB} {rss usage: 38473728 bytes/36MB} [pid: 6289|app: 0|req: 2/21] 118.220.119.114 () {48 vars in 1081 bytes} [Wed Dec  4 01:14:48 2019] POST /admin/login/?next=/admin/manager/table/add/ => generated 0 bytes in 165 msecs (HTTP/1.1 302) 9 headers in 577 bytes (1 switches on core 0)
+{address space usage: 120082432 bytes/114MB} {rss usage: 39641088 bytes/37MB} [pid: 6284|app: 0|req: 2/22] 118.220.119.114 () {44 vars in 927 bytes} [Wed Dec  4 01:14:48 2019] GET /admin/manager/table/add/ => generated 5412 bytes in 75 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 119730176 bytes/114MB} {rss usage: 39542784 bytes/37MB} [pid: 6290|app: 0|req: 2/23] 118.220.119.114 () {42 vars in 841 bytes} [Wed Dec  4 01:14:48 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 119353344 bytes/113MB} {rss usage: 38600704 bytes/36MB} [pid: 6292|app: 0|req: 2/24] 118.220.119.114 () {48 vars in 1025 bytes} [Wed Dec  4 01:14:55 2019] POST /admin/manager/table/add/ => generated 0 bytes in 30 msecs (HTTP/1.1 302) 9 headers in 710 bytes (1 switches on core 0)
+{address space usage: 120500224 bytes/114MB} {rss usage: 39993344 bytes/38MB} [pid: 6291|app: 0|req: 2/25] 118.220.119.114 () {44 vars in 1160 bytes} [Wed Dec  4 01:14:55 2019] GET /admin/manager/table/ => generated 4636 bytes in 62 msecs (HTTP/1.1 200) 9 headers in 624 bytes (1 switches on core 0)
+{address space usage: 118095872 bytes/112MB} {rss usage: 37629952 bytes/35MB} [pid: 6293|app: 0|req: 2/26] 118.220.119.114 () {42 vars in 837 bytes} [Wed Dec  4 01:14:56 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120524800 bytes/114MB} {rss usage: 40050688 bytes/38MB} [pid: 6295|app: 0|req: 2/27] 118.220.119.114 () {42 vars in 897 bytes} [Wed Dec  4 01:14:59 2019] GET /admin/manager/table/add/ => generated 5412 bytes in 78 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 119705600 bytes/114MB} {rss usage: 39170048 bytes/37MB} [pid: 6294|app: 0|req: 2/28] 118.220.119.114 () {42 vars in 841 bytes} [Wed Dec  4 01:14:59 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 118628352 bytes/113MB} {rss usage: 38301696 bytes/36MB} [pid: 6297|app: 0|req: 2/29] 118.220.119.114 () {42 vars in 915 bytes} [Wed Dec  4 01:15:00 2019] GET /admin/login/?next=/admin/manager/table/add/ => generated 0 bytes in 23 msecs (HTTP/1.1 302) 8 headers in 391 bytes (1 switches on core 0)
+{address space usage: 119185408 bytes/113MB} {rss usage: 38772736 bytes/36MB} [pid: 6296|app: 0|req: 2/30] 118.220.119.114 () {42 vars in 842 bytes} [Wed Dec  4 01:15:00 2019] GET /admin/ => generated 8859 bytes in 65 msecs (HTTP/1.1 200) 7 headers in 372 bytes (1 switches on core 0)
+{address space usage: 118243328 bytes/112MB} {rss usage: 37679104 bytes/35MB} [pid: 6298|app: 0|req: 2/31] 118.220.119.114 () {42 vars in 867 bytes} [Wed Dec  4 01:15:00 2019] GET /manager/page/restaurant/ => generated 5291 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+Wed Dec  4 01:16:15 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 16:16:20 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12f4c60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x12f4c60 pid: 6427 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6427)
+spawned uWSGI worker 1 (pid: 6448, cores: 1)
+spawned uWSGI worker 2 (pid: 6449, cores: 1)
+spawned uWSGI worker 3 (pid: 6450, cores: 1)
+spawned uWSGI worker 4 (pid: 6451, cores: 1)
+spawned uWSGI worker 5 (pid: 6452, cores: 1)
+spawned uWSGI worker 6 (pid: 6453, cores: 1)
+spawned uWSGI worker 7 (pid: 6454, cores: 1)
+spawned uWSGI worker 8 (pid: 6455, cores: 1)
+spawned uWSGI worker 9 (pid: 6456, cores: 1)
+spawned uWSGI worker 10 (pid: 6457, cores: 1)
+spawned uWSGI worker 11 (pid: 6458, cores: 1)
+spawned uWSGI worker 12 (pid: 6459, cores: 1)
+spawned uWSGI worker 13 (pid: 6460, cores: 1)
+spawned uWSGI worker 14 (pid: 6461, cores: 1)
+spawned uWSGI worker 15 (pid: 6462, cores: 1)
+spawned uWSGI worker 16 (pid: 6463, cores: 1)
+{address space usage: 118022144 bytes/112MB} {rss usage: 37740544 bytes/35MB} [pid: 6450|app: 0|req: 1/1] 61.77.118.91 () {46 vars in 1093 bytes} [Wed Dec  4 01:16:31 2019] GET /reserv/modify/6/? => generated 5059 bytes in 82 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117739520 bytes/112MB} {rss usage: 36896768 bytes/35MB} [pid: 6453|app: 0|req: 1/2] 61.77.118.91 () {52 vars in 1278 bytes} [Wed Dec  4 01:16:38 2019] POST /reserv/modify/6/success/ => generated 0 bytes in 69 msecs (HTTP/1.1 302) 5 headers in 284 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118022144 bytes/112MB} {rss usage: 37662720 bytes/35MB} [pid: 6451|app: 0|req: 1/3] 61.77.118.91 () {46 vars in 1096 bytes} [Wed Dec  4 01:16:38 2019] GET /reserv/modify/6/ => generated 5059 bytes in 78 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117739520 bytes/112MB} {rss usage: 36896768 bytes/35MB} [pid: 6452|app: 0|req: 1/4] 61.77.118.91 () {52 vars in 1277 bytes} [Wed Dec  4 01:16:44 2019] POST /reserv/modify/6/success/ => generated 0 bytes in 65 msecs (HTTP/1.1 302) 5 headers in 284 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118022144 bytes/112MB} {rss usage: 37478400 bytes/35MB} [pid: 6449|app: 0|req: 1/5] 61.77.118.91 () {46 vars in 1095 bytes} [Wed Dec  4 01:16:44 2019] GET /reserv/modify/6/ => generated 5059 bytes in 77 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118038528 bytes/112MB} {rss usage: 37433344 bytes/35MB} [pid: 6455|app: 0|req: 1/6] 118.220.119.114 () {42 vars in 856 bytes} [Wed Dec  4 01:17:07 2019] GET /manager/page/ => generated 4926 bytes in 79 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./manager/views.py:55: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.User'> QuerySet.
+  paginator = Paginator(list_all,6)
+{address space usage: 118153216 bytes/112MB} {rss usage: 37777408 bytes/36MB} [pid: 6454|app: 0|req: 1/7] 118.220.119.114 () {42 vars in 855 bytes} [Wed Dec  4 01:17:08 2019] GET /manager/page/user/ => generated 11395 bytes in 84 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2019-12-26 17:40:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118554624 bytes/113MB} {rss usage: 37801984 bytes/36MB} [pid: 6448|app: 0|req: 1/8] 211.114.88.216 () {52 vars in 1256 bytes} [Wed Dec  4 01:17:18 2019] POST /reserv/none/user/ => generated 4399 bytes in 108 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118038528 bytes/112MB} {rss usage: 37433344 bytes/35MB} [pid: 6456|app: 0|req: 1/9] 118.220.119.114 () {42 vars in 856 bytes} [Wed Dec  4 01:17:45 2019] GET /manager/page/ => generated 4926 bytes in 78 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./point/views.py:10: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.NormalUser'> QuerySet.
+  paginator = Paginator(list_all,6)
+{address space usage: 118157312 bytes/112MB} {rss usage: 37765120 bytes/36MB} [pid: 6457|app: 0|req: 1/10] 118.220.119.114 () {42 vars in 855 bytes} [Wed Dec  4 01:17:46 2019] GET /manager/page/point => generated 14518 bytes in 81 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed Dec  4 01:19:25 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 16:19:30 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1638c60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1638c60 pid: 6565 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6565)
+spawned uWSGI worker 1 (pid: 6583, cores: 1)
+spawned uWSGI worker 2 (pid: 6584, cores: 1)
+spawned uWSGI worker 3 (pid: 6585, cores: 1)
+spawned uWSGI worker 4 (pid: 6586, cores: 1)
+spawned uWSGI worker 5 (pid: 6587, cores: 1)
+spawned uWSGI worker 6 (pid: 6588, cores: 1)
+spawned uWSGI worker 7 (pid: 6589, cores: 1)
+spawned uWSGI worker 8 (pid: 6590, cores: 1)
+spawned uWSGI worker 9 (pid: 6591, cores: 1)
+spawned uWSGI worker 10 (pid: 6592, cores: 1)
+spawned uWSGI worker 11 (pid: 6593, cores: 1)
+spawned uWSGI worker 12 (pid: 6594, cores: 1)
+spawned uWSGI worker 13 (pid: 6595, cores: 1)
+spawned uWSGI worker 14 (pid: 6596, cores: 1)
+spawned uWSGI worker 15 (pid: 6597, cores: 1)
+spawned uWSGI worker 16 (pid: 6598, cores: 1)
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2020-04-07 01:59:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118145024 bytes/112MB} {rss usage: 37416960 bytes/35MB} [pid: 6585|app: 0|req: 1/1] 61.77.118.91 () {52 vars in 1277 bytes} [Wed Dec  4 01:19:44 2019] POST /reserv/modify/6/success/ => generated 0 bytes in 95 msecs (HTTP/1.1 302) 5 headers in 275 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118173696 bytes/112MB} {rss usage: 37720064 bytes/35MB} [pid: 6587|app: 0|req: 1/2] 61.77.118.91 () {46 vars in 1077 bytes} [Wed Dec  4 01:19:44 2019] GET /reserv/ => generated 5279 bytes in 77 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118194176 bytes/112MB} {rss usage: 37920768 bytes/36MB} [pid: 6586|app: 0|req: 1/3] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:19:45 2019] GET /reserv/check/ => generated 5278 bytes in 100 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118046720 bytes/112MB} {rss usage: 37769216 bytes/36MB} [pid: 6584|app: 0|req: 1/4] 61.77.118.91 () {44 vars in 1062 bytes} [Wed Dec  4 01:19:53 2019] GET /reserv/modify/6/? => generated 5059 bytes in 76 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2020-03-18 13:00:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118042624 bytes/112MB} {rss usage: 37367808 bytes/35MB} [pid: 6588|app: 0|req: 1/5] 61.77.118.91 () {52 vars in 1278 bytes} [Wed Dec  4 01:20:05 2019] POST /reserv/modify/6/success/ => generated 0 bytes in 89 msecs (HTTP/1.1 302) 5 headers in 275 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118173696 bytes/112MB} {rss usage: 37793792 bytes/36MB} [pid: 6589|app: 0|req: 1/6] 61.77.118.91 () {46 vars in 1078 bytes} [Wed Dec  4 01:20:05 2019] GET /reserv/ => generated 5279 bytes in 76 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118194176 bytes/112MB} {rss usage: 37920768 bytes/36MB} [pid: 6583|app: 0|req: 1/7] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:20:07 2019] GET /reserv/check/ => generated 5278 bytes in 100 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118046720 bytes/112MB} {rss usage: 37769216 bytes/36MB} [pid: 6590|app: 0|req: 1/8] 61.77.118.91 () {44 vars in 1062 bytes} [Wed Dec  4 01:20:13 2019] GET /reserv/modify/6/? => generated 5059 bytes in 74 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118063104 bytes/112MB} {rss usage: 37617664 bytes/35MB} [pid: 6591|app: 0|req: 1/9] 118.220.119.114 () {42 vars in 850 bytes} [Wed Dec  4 01:20:18 2019] GET /manager/page/ => generated 4926 bytes in 75 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./manager/views.py:55: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.User'> QuerySet.
+  paginator = Paginator(list_all,6)
+{address space usage: 118177792 bytes/112MB} {rss usage: 37793792 bytes/36MB} [pid: 6592|app: 0|req: 1/10] 118.220.119.114 () {42 vars in 855 bytes} [Wed Dec  4 01:20:19 2019] GET /manager/page/user/ => generated 11395 bytes in 81 msecs (HTTP/1.1 200) 5 headers in 270 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2020-01-01 00:00:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118042624 bytes/112MB} {rss usage: 37367808 bytes/35MB} [pid: 6593|app: 0|req: 1/11] 61.77.118.91 () {52 vars in 1278 bytes} [Wed Dec  4 01:20:20 2019] POST /reserv/modify/6/success/ => generated 0 bytes in 87 msecs (HTTP/1.1 302) 5 headers in 275 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118173696 bytes/112MB} {rss usage: 37793792 bytes/36MB} [pid: 6594|app: 0|req: 1/12] 61.77.118.91 () {46 vars in 1078 bytes} [Wed Dec  4 01:20:20 2019] GET /reserv/ => generated 5279 bytes in 75 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118063104 bytes/112MB} {rss usage: 37556224 bytes/35MB} [pid: 6595|app: 0|req: 1/13] 118.220.119.114 () {42 vars in 850 bytes} [Wed Dec  4 01:20:22 2019] GET /manager/page/ => generated 4926 bytes in 76 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118194176 bytes/112MB} {rss usage: 37920768 bytes/36MB} [pid: 6596|app: 0|req: 1/14] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:20:23 2019] GET /reserv/check/ => generated 5278 bytes in 97 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118173696 bytes/112MB} {rss usage: 37863424 bytes/36MB} [pid: 6597|app: 0|req: 1/15] 118.220.119.114 () {42 vars in 867 bytes} [Wed Dec  4 01:20:24 2019] GET /manager/page/restaurant/ => generated 5291 bytes in 79 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117383168 bytes/111MB} {rss usage: 37195776 bytes/35MB} [pid: 6598|app: 0|req: 1/16] 118.220.119.114 () {42 vars in 876 bytes} [Wed Dec  4 01:20:26 2019] GET /manager/page/table_add/ => generated 0 bytes in 64 msecs (HTTP/1.1 302) 5 headers in 292 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 120393728 bytes/114MB} {rss usage: 40230912 bytes/38MB} [pid: 6585|app: 0|req: 2/17] 118.220.119.114 () {42 vars in 878 bytes} [Wed Dec  4 01:20:26 2019] GET /admin/manager/table/add/ => generated 5412 bytes in 82 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37937152 bytes/36MB} [pid: 6587|app: 0|req: 2/18] 118.220.119.114 () {42 vars in 841 bytes} [Wed Dec  4 01:20:26 2019] GET /admin/jsi18n/ => generated 8330 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 118329344 bytes/112MB} {rss usage: 37920768 bytes/36MB} [pid: 6586|app: 0|req: 2/19] 211.114.88.216 () {44 vars in 1021 bytes} [Wed Dec  4 01:22:32 2019] GET /reserv/ => generated 6117 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118185984 bytes/112MB} {rss usage: 37769216 bytes/36MB} [pid: 6584|app: 0|req: 2/20] 211.114.88.216 () {44 vars in 1043 bytes} [Wed Dec  4 01:22:33 2019] GET /reserv/none/user/check/ => generated 4364 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118591488 bytes/113MB} {rss usage: 38322176 bytes/36MB} [pid: 6588|app: 0|req: 2/21] 211.114.88.216 () {44 vars in 1021 bytes} [Wed Dec  4 01:22:42 2019] GET /reserv/ => generated 6117 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37793792 bytes/36MB} [pid: 6589|app: 0|req: 2/22] 211.114.88.216 () {44 vars in 1043 bytes} [Wed Dec  4 01:22:43 2019] GET /reserv/none/user/check/ => generated 4364 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118591488 bytes/113MB} {rss usage: 38203392 bytes/36MB} [pid: 6583|app: 0|req: 2/23] 211.114.88.216 () {52 vars in 1284 bytes} [Wed Dec  4 01:23:33 2019] POST /reserv/none/user/check/ => generated 4774 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118185984 bytes/112MB} {rss usage: 37949440 bytes/36MB} [pid: 6590|app: 0|req: 2/24] 211.114.88.216 () {52 vars in 1286 bytes} [Wed Dec  4 01:25:15 2019] POST /reserv/none/user/delete/ => generated 0 bytes in 19 msecs (HTTP/1.1 302) 5 headers in 275 bytes (1 switches on core 0)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37888000 bytes/36MB} [pid: 6591|app: 0|req: 2/25] 211.114.88.216 () {46 vars in 1058 bytes} [Wed Dec  4 01:25:15 2019] GET /reserv/ => generated 6117 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118312960 bytes/112MB} {rss usage: 38043648 bytes/36MB} [pid: 6592|app: 0|req: 2/26] 61.77.118.91 () {44 vars in 1029 bytes} [Wed Dec  4 01:27:07 2019] GET / => generated 11976 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118591488 bytes/113MB} {rss usage: 38322176 bytes/36MB} [pid: 6593|app: 0|req: 2/27] 61.77.118.91 () {44 vars in 1030 bytes} [Wed Dec  4 01:27:10 2019] GET /reserv/ => generated 5279 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118321152 bytes/112MB} {rss usage: 38137856 bytes/36MB} [pid: 6594|app: 0|req: 2/28] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:27:11 2019] GET /reserv/check/ => generated 5278 bytes in 31 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118206464 bytes/112MB} {rss usage: 37822464 bytes/36MB} [pid: 6595|app: 0|req: 2/29] 61.77.118.91 () {44 vars in 1062 bytes} [Wed Dec  4 01:27:12 2019] GET /reserv/modify/6/? => generated 5059 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2021-01-08 12:00:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118595584 bytes/113MB} {rss usage: 38363136 bytes/36MB} [pid: 6596|app: 0|req: 2/30] 61.77.118.91 () {52 vars in 1278 bytes} [Wed Dec  4 01:27:24 2019] POST /reserv/modify/6/success/ => generated 0 bytes in 15 msecs (HTTP/1.1 302) 5 headers in 275 bytes (1 switches on core 0)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37863424 bytes/36MB} [pid: 6597|app: 0|req: 2/31] 61.77.118.91 () {46 vars in 1078 bytes} [Wed Dec  4 01:27:25 2019] GET /reserv/ => generated 5279 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118185984 bytes/112MB} {rss usage: 38051840 bytes/36MB} [pid: 6598|app: 0|req: 2/32] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:27:26 2019] GET /reserv/check/ => generated 5278 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 120528896 bytes/114MB} {rss usage: 40230912 bytes/38MB} [pid: 6585|app: 0|req: 3/33] 211.114.88.216 () {44 vars in 1009 bytes} [Wed Dec  4 01:27:33 2019] GET /login/ => generated 4571 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37937152 bytes/36MB} [pid: 6587|app: 0|req: 3/34] 211.114.88.216 () {52 vars in 1233 bytes} [Wed Dec  4 01:27:40 2019] POST /login/ => generated 0 bytes in 8 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118329344 bytes/112MB} {rss usage: 38187008 bytes/36MB} [pid: 6586|app: 0|req: 3/35] 211.114.88.216 () {46 vars in 1027 bytes} [Wed Dec  4 01:27:40 2019] GET / => generated 11976 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118185984 bytes/112MB} {rss usage: 37769216 bytes/36MB} [pid: 6584|app: 0|req: 3/36] 211.114.88.216 () {44 vars in 1004 bytes} [Wed Dec  4 01:27:42 2019] GET /reserv/ => generated 5279 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 39120896 bytes/37MB} [pid: 6588|app: 0|req: 3/37] 211.114.88.216 () {44 vars in 1023 bytes} [Wed Dec  4 01:27:45 2019] GET /reserv/check/ => generated 27 bytes in 28 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37793792 bytes/36MB} [pid: 6589|app: 0|req: 3/38] 61.77.118.91 () {44 vars in 1062 bytes} [Wed Dec  4 01:28:37 2019] GET /reserv/modify/6/? => generated 5059 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118591488 bytes/113MB} {rss usage: 38203392 bytes/36MB} [pid: 6583|app: 0|req: 3/39] 61.77.118.91 () {44 vars in 1047 bytes} [Wed Dec  4 01:28:40 2019] GET /reserv/ => generated 5279 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118587392 bytes/113MB} {rss usage: 38207488 bytes/36MB} [pid: 6590|app: 0|req: 3/40] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:28:41 2019] GET /reserv/check/ => generated 5278 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37888000 bytes/36MB} [pid: 6591|app: 0|req: 3/41] 61.77.118.91 () {44 vars in 1043 bytes} [Wed Dec  4 01:28:42 2019] GET /reserv/ => generated 5279 bytes in 7 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2020-12-01 13:59:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118972416 bytes/113MB} {rss usage: 38584320 bytes/36MB} [pid: 6592|app: 0|req: 3/42] 61.77.118.91 () {52 vars in 1234 bytes} [Wed Dec  4 01:28:47 2019] POST /reserv/ => generated 0 bytes in 32 msecs (HTTP/1.1 302) 6 headers in 295 bytes (1 switches on core 0)
+{address space usage: 118591488 bytes/113MB} {rss usage: 38506496 bytes/36MB} [pid: 6593|app: 0|req: 3/43] 61.77.118.91 () {46 vars in 1080 bytes} [Wed Dec  4 01:28:47 2019] GET /reserv/check/ => generated 5638 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118321152 bytes/112MB} {rss usage: 38137856 bytes/36MB} [pid: 6594|app: 0|req: 3/44] 61.77.118.91 () {44 vars in 1062 bytes} [Wed Dec  4 01:29:01 2019] GET /reserv/modify/6/? => generated 5059 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2019-12-25 13:59:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38293504 bytes/36MB} [pid: 6595|app: 0|req: 3/45] 61.77.118.91 () {52 vars in 1278 bytes} [Wed Dec  4 01:29:13 2019] POST /reserv/modify/6/success/ => generated 0 bytes in 34 msecs (HTTP/1.1 302) 5 headers in 275 bytes (1 switches on core 0)
+{address space usage: 118595584 bytes/113MB} {rss usage: 38363136 bytes/36MB} [pid: 6596|app: 0|req: 3/46] 61.77.118.91 () {46 vars in 1078 bytes} [Wed Dec  4 01:29:13 2019] GET /reserv/ => generated 5279 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37863424 bytes/36MB} [pid: 6597|app: 0|req: 3/47] 211.114.88.216 () {44 vars in 1023 bytes} [Wed Dec  4 01:29:13 2019] GET /login/logout/ => generated 0 bytes in 6 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118321152 bytes/112MB} {rss usage: 38166528 bytes/36MB} [pid: 6598|app: 0|req: 3/48] 211.114.88.216 () {44 vars in 997 bytes} [Wed Dec  4 01:29:13 2019] GET / => generated 11817 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 120791040 bytes/115MB} {rss usage: 40443904 bytes/38MB} [pid: 6585|app: 0|req: 4/49] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 01:29:16 2019] GET /reserv/check/ => generated 5638 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37937152 bytes/36MB} [pid: 6587|app: 0|req: 4/50] 61.77.118.91 () {44 vars in 1055 bytes} [Wed Dec  4 01:29:19 2019] GET /login/logout/ => generated 0 bytes in 5 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118726656 bytes/113MB} {rss usage: 38334464 bytes/36MB} [pid: 6586|app: 0|req: 4/51] 61.77.118.91 () {44 vars in 1029 bytes} [Wed Dec  4 01:29:19 2019] GET / => generated 11817 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118185984 bytes/112MB} {rss usage: 38035456 bytes/36MB} [pid: 6584|app: 0|req: 4/52] 61.77.118.91 () {44 vars in 1028 bytes} [Wed Dec  4 01:29:21 2019] GET /login/ => generated 4571 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 39120896 bytes/37MB} [pid: 6588|app: 0|req: 4/53] 61.77.118.91 () {52 vars in 1229 bytes} [Wed Dec  4 01:29:25 2019] POST /login/ => generated 0 bytes in 7 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118308864 bytes/112MB} {rss usage: 38010880 bytes/36MB} [pid: 6589|app: 0|req: 4/54] 61.77.118.91 () {46 vars in 1053 bytes} [Wed Dec  4 01:29:25 2019] GET / => generated 11976 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118591488 bytes/113MB} {rss usage: 38203392 bytes/36MB} [pid: 6583|app: 0|req: 4/55] 211.114.88.216 () {44 vars in 1004 bytes} [Wed Dec  4 01:29:31 2019] GET /reserv/ => generated 6117 bytes in 7 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118738944 bytes/113MB} {rss usage: 38387712 bytes/36MB} [pid: 6590|app: 0|req: 4/56] 211.114.88.216 () {44 vars in 997 bytes} [Wed Dec  4 01:29:32 2019] GET / => generated 11817 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37888000 bytes/36MB} [pid: 6591|app: 0|req: 4/57] 211.114.88.216 () {44 vars in 1002 bytes} [Wed Dec  4 01:29:33 2019] GET /login/ => generated 4571 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118972416 bytes/113MB} {rss usage: 38584320 bytes/36MB} [pid: 6592|app: 0|req: 4/58] 211.114.88.216 () {44 vars in 996 bytes} [Wed Dec  4 01:29:35 2019] GET / => generated 11817 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118992896 bytes/113MB} {rss usage: 38707200 bytes/36MB} [pid: 6593|app: 0|req: 4/59] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 01:29:52 2019] GET /login/user/review/ => generated 15878 bytes in 23 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118583296 bytes/113MB} {rss usage: 38137856 bytes/36MB} [pid: 6594|app: 0|req: 4/60] 211.114.88.216 () {44 vars in 1002 bytes} [Wed Dec  4 01:29:54 2019] GET /login/ => generated 4571 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118886400 bytes/113MB} {rss usage: 38432768 bytes/36MB} [pid: 6595|app: 0|req: 4/61] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 01:29:56 2019] POST /login/review/search/ => generated 3354 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118992896 bytes/113MB} {rss usage: 38825984 bytes/37MB} [pid: 6596|app: 0|req: 4/62] 61.77.118.91 () {44 vars in 1072 bytes} [Wed Dec  4 01:29:57 2019] GET /login/user/review/ => generated 15878 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118571008 bytes/113MB} {rss usage: 38268928 bytes/36MB} [pid: 6597|app: 0|req: 4/63] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 01:29:59 2019] POST /login/review/search/ => generated 5085 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118718464 bytes/113MB} {rss usage: 38391808 bytes/36MB} [pid: 6598|app: 0|req: 4/64] 61.77.118.91 () {44 vars in 1072 bytes} [Wed Dec  4 01:30:01 2019] GET /login/user/review/ => generated 15878 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 120791040 bytes/115MB} {rss usage: 40443904 bytes/38MB} [pid: 6585|app: 0|req: 5/65] 211.114.88.216 () {52 vars in 1233 bytes} [Wed Dec  4 01:30:04 2019] POST /login/ => generated 0 bytes in 7 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118308864 bytes/112MB} {rss usage: 38068224 bytes/36MB} [pid: 6587|app: 0|req: 5/66] 211.114.88.216 () {46 vars in 1027 bytes} [Wed Dec  4 01:30:04 2019] GET / => generated 11976 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 119181312 bytes/113MB} {rss usage: 38952960 bytes/37MB} [pid: 6586|app: 0|req: 5/67] 211.114.88.216 () {44 vars in 1026 bytes} [Wed Dec  4 01:30:06 2019] GET /login/user/review/ => generated 27 bytes in 22 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+{address space usage: 118448128 bytes/112MB} {rss usage: 38178816 bytes/36MB} [pid: 6584|app: 0|req: 5/68] 61.77.118.91 () {52 vars in 1279 bytes} [Wed Dec  4 01:30:18 2019] POST /login/user/review/write/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 6 headers in 300 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 119447552 bytes/113MB} {rss usage: 39227392 bytes/37MB} [pid: 6588|app: 0|req: 5/69] 61.77.118.91 () {46 vars in 1101 bytes} [Wed Dec  4 01:30:18 2019] GET /login/user/review/ => generated 16598 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118308864 bytes/112MB} {rss usage: 38010880 bytes/36MB} [pid: 6589|app: 0|req: 5/70] 211.114.88.216 () {44 vars in 1004 bytes} [Wed Dec  4 01:31:00 2019] GET /reserv/ => generated 5279 bytes in 7 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 119001088 bytes/113MB} {rss usage: 38969344 bytes/37MB} [pid: 6583|app: 0|req: 5/71] 211.114.88.216 () {44 vars in 1023 bytes} [Wed Dec  4 01:31:01 2019] GET /reserv/check/ => generated 27 bytes in 20 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 119193600 bytes/113MB} {rss usage: 39026688 bytes/37MB} [pid: 6590|app: 0|req: 5/72] 211.114.88.216 () {44 vars in 1033 bytes} [Wed Dec  4 01:31:04 2019] GET /login/user/review/ => generated 27 bytes in 22 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37888000 bytes/36MB} [pid: 6591|app: 0|req: 5/73] 211.114.88.216 () {44 vars in 1011 bytes} [Wed Dec  4 01:31:07 2019] GET /reserv/ => generated 5279 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118972416 bytes/113MB} {rss usage: 38584320 bytes/36MB} [pid: 6592|app: 0|req: 5/74] 211.114.88.216 () {44 vars in 1011 bytes} [Wed Dec  4 01:31:08 2019] GET /reserv/ => generated 5279 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118992896 bytes/113MB} {rss usage: 38707200 bytes/36MB} [pid: 6593|app: 0|req: 5/75] 61.77.118.91 () {44 vars in 1060 bytes} [Wed Dec  4 01:31:48 2019] GET /login/logout/ => generated 0 bytes in 8 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118730752 bytes/113MB} {rss usage: 38301696 bytes/36MB} [pid: 6594|app: 0|req: 5/76] 61.77.118.91 () {44 vars in 1034 bytes} [Wed Dec  4 01:31:48 2019] GET / => generated 11817 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118886400 bytes/113MB} {rss usage: 38432768 bytes/36MB} [pid: 6595|app: 0|req: 5/77] 61.77.118.91 () {44 vars in 1028 bytes} [Wed Dec  4 01:31:49 2019] GET /login/ => generated 4571 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118992896 bytes/113MB} {rss usage: 38825984 bytes/37MB} [pid: 6596|app: 0|req: 5/78] 61.77.118.91 () {52 vars in 1231 bytes} [Wed Dec  4 01:31:54 2019] POST /login/ => generated 4661 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118571008 bytes/113MB} {rss usage: 38268928 bytes/36MB} [pid: 6597|app: 0|req: 5/79] 61.77.118.91 () {52 vars in 1231 bytes} [Wed Dec  4 01:32:03 2019] POST /login/ => generated 4661 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118718464 bytes/113MB} {rss usage: 38391808 bytes/36MB} [pid: 6598|app: 0|req: 5/80] 61.77.118.91 () {52 vars in 1231 bytes} [Wed Dec  4 01:32:12 2019] POST /login/ => generated 4661 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 120791040 bytes/115MB} {rss usage: 40443904 bytes/38MB} [pid: 6585|app: 0|req: 6/81] 61.77.118.91 () {52 vars in 1231 bytes} [Wed Dec  4 01:32:22 2019] POST /login/ => generated 4661 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118571008 bytes/113MB} {rss usage: 38068224 bytes/36MB} [pid: 6587|app: 0|req: 6/82] 61.77.118.91 () {52 vars in 1231 bytes} [Wed Dec  4 01:32:26 2019] POST /login/ => generated 4661 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 119443456 bytes/113MB} {rss usage: 39092224 bytes/37MB} [pid: 6586|app: 0|req: 6/83] 61.77.118.91 () {52 vars in 1231 bytes} [Wed Dec  4 01:32:30 2019] POST /login/ => generated 4661 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 119685120 bytes/114MB} {rss usage: 39432192 bytes/37MB} [pid: 6584|app: 0|req: 6/84] 61.77.118.91 () {44 vars in 973 bytes} [Wed Dec  4 01:32:35 2019] GET /admin/ => generated 11172 bytes in 67 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 120377344 bytes/114MB} {rss usage: 40267776 bytes/38MB} [pid: 6588|app: 0|req: 6/85] 61.77.118.91 () {42 vars in 949 bytes} [Wed Dec  4 01:32:36 2019] GET /admin/ => generated 11172 bytes in 47 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 120594432 bytes/115MB} {rss usage: 40423424 bytes/38MB} [pid: 6589|app: 0|req: 6/86] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:32:38 2019] GET /admin/login/user/ => generated 6815 bytes in 87 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 119001088 bytes/113MB} {rss usage: 38969344 bytes/37MB} [pid: 6583|app: 0|req: 6/87] 61.77.118.91 () {42 vars in 909 bytes} [Wed Dec  4 01:32:38 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 119455744 bytes/113MB} {rss usage: 39104512 bytes/37MB} [pid: 6590|app: 0|req: 6/88] 61.77.118.91 () {42 vars in 937 bytes} [Wed Dec  4 01:32:42 2019] GET / => generated 11817 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 119013376 bytes/113MB} {rss usage: 38895616 bytes/37MB} [pid: 6591|app: 0|req: 6/89] 211.114.88.216 () {44 vars in 1033 bytes} [Wed Dec  4 01:32:42 2019] GET /login/user/review/ => generated 27 bytes in 41 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+{address space usage: 118972416 bytes/113MB} {rss usage: 38793216 bytes/36MB} [pid: 6592|app: 0|req: 6/90] 61.77.118.91 () {44 vars in 1028 bytes} [Wed Dec  4 01:32:43 2019] GET /login/ => generated 4571 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118992896 bytes/113MB} {rss usage: 38707200 bytes/36MB} [pid: 6593|app: 0|req: 6/91] 61.77.118.91 () {52 vars in 1231 bytes} [Wed Dec  4 01:32:48 2019] POST /login/ => generated 0 bytes in 7 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118730752 bytes/113MB} {rss usage: 38301696 bytes/36MB} [pid: 6594|app: 0|req: 6/92] 61.77.118.91 () {46 vars in 1053 bytes} [Wed Dec  4 01:32:48 2019] GET / => generated 12122 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 119459840 bytes/113MB} {rss usage: 39297024 bytes/37MB} [pid: 6595|app: 0|req: 6/93] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 01:32:50 2019] GET /login/user/review/ => generated 27 bytes in 23 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+{address space usage: 118992896 bytes/113MB} {rss usage: 38825984 bytes/37MB} [pid: 6596|app: 0|req: 6/94] 211.114.88.216 () {44 vars in 1011 bytes} [Wed Dec  4 01:32:53 2019] GET /reserv/ => generated 5279 bytes in 7 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118718464 bytes/113MB} {rss usage: 38502400 bytes/36MB} [pid: 6597|app: 0|req: 6/95] 211.114.88.216 () {44 vars in 997 bytes} [Wed Dec  4 01:32:54 2019] GET / => generated 11976 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118718464 bytes/113MB} {rss usage: 38629376 bytes/36MB} [pid: 6598|app: 0|req: 6/96] 211.114.88.216 () {44 vars in 1004 bytes} [Wed Dec  4 01:32:58 2019] GET /reserv/ => generated 5279 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 120942592 bytes/115MB} {rss usage: 40669184 bytes/38MB} [pid: 6585|app: 0|req: 7/97] 211.114.88.216 () {44 vars in 997 bytes} [Wed Dec  4 01:33:01 2019] GET / => generated 11976 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+Wed Dec  4 01:35:03 2019 - *** /home/ubuntu/src/SW-engineering-project/reservation/reservation/settings.py has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 6583)...
+Gracefully killing worker 2 (pid: 6584)...
+Gracefully killing worker 3 (pid: 6585)...
+Gracefully killing worker 4 (pid: 6586)...
+Gracefully killing worker 5 (pid: 6587)...
+Gracefully killing worker 6 (pid: 6588)...
+Gracefully killing worker 7 (pid: 6589)...
+Gracefully killing worker 8 (pid: 6590)...
+Gracefully killing worker 9 (pid: 6591)...
+Gracefully killing worker 10 (pid: 6592)...
+Gracefully killing worker 11 (pid: 6593)...
+Gracefully killing worker 12 (pid: 6594)...
+Gracefully killing worker 13 (pid: 6595)...
+Gracefully killing worker 14 (pid: 6596)...
+Gracefully killing worker 15 (pid: 6597)...
+Gracefully killing worker 16 (pid: 6598)...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+worker 11 buried after 2 seconds
+worker 12 buried after 2 seconds
+worker 13 buried after 2 seconds
+worker 14 buried after 2 seconds
+worker 15 buried after 2 seconds
+worker 16 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/sites
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/src/SW-engineering-project/reservation/reservation.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 7) ***
+[uWSGI] getting INI configuration from SW-engineering-project.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Dec  4 01:35:06 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 inherited UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d78590
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d78590 pid: 6565 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 6565)
+spawned uWSGI worker 1 (pid: 6688, cores: 1)
+spawned uWSGI worker 2 (pid: 6689, cores: 1)
+spawned uWSGI worker 3 (pid: 6690, cores: 1)
+spawned uWSGI worker 4 (pid: 6691, cores: 1)
+spawned uWSGI worker 5 (pid: 6692, cores: 1)
+spawned uWSGI worker 6 (pid: 6693, cores: 1)
+spawned uWSGI worker 7 (pid: 6694, cores: 1)
+spawned uWSGI worker 8 (pid: 6695, cores: 1)
+spawned uWSGI worker 9 (pid: 6696, cores: 1)
+spawned uWSGI worker 10 (pid: 6697, cores: 1)
+spawned uWSGI worker 11 (pid: 6698, cores: 1)
+spawned uWSGI worker 12 (pid: 6699, cores: 1)
+spawned uWSGI worker 13 (pid: 6700, cores: 1)
+spawned uWSGI worker 14 (pid: 6701, cores: 1)
+spawned uWSGI worker 15 (pid: 6702, cores: 1)
+spawned uWSGI worker 16 (pid: 6703, cores: 1)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+Internal Server Error: /login/user/review/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./login/views.py", line 118, in show_review
+    user = get_object_or_404(User, idName=request.session.get("userid"))
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/shortcuts.py", line 93, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+login.models.User.MultipleObjectsReturned: get() returned more than one User -- it returned 2!
+{address space usage: 118607872 bytes/113MB} {rss usage: 37957632 bytes/36MB} [pid: 6691|app: 0|req: 1/1] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 01:35:13 2019] GET /login/user/review/ => generated 70408 bytes in 106 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119169024 bytes/113MB} {rss usage: 38674432 bytes/36MB} [pid: 6690|app: 0|req: 1/2] 61.77.118.91 () {44 vars in 973 bytes} [Wed Dec  4 01:36:23 2019] GET /admin/ => generated 11172 bytes in 135 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119169024 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6689|app: 0|req: 1/3] 61.77.118.91 () {42 vars in 949 bytes} [Wed Dec  4 01:36:24 2019] GET /admin/ => generated 11172 bytes in 136 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 120102912 bytes/114MB} {rss usage: 39710720 bytes/37MB} [pid: 6693|app: 0|req: 1/4] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:36:26 2019] GET /admin/login/user/ => generated 6799 bytes in 162 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 116903936 bytes/111MB} {rss usage: 36311040 bytes/34MB} [pid: 6694|app: 0|req: 1/5] 61.77.118.91 () {42 vars in 909 bytes} [Wed Dec  4 01:36:27 2019] GET /admin/jsi18n/ => generated 8330 bytes in 48 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 120131584 bytes/114MB} {rss usage: 39714816 bytes/37MB} [pid: 6688|app: 0|req: 1/6] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 01:36:30 2019] GET /admin/login/user/7/change/ => generated 7872 bytes in 157 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 116903936 bytes/111MB} {rss usage: 36311040 bytes/34MB} [pid: 6696|app: 0|req: 1/7] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 01:36:30 2019] GET /admin/jsi18n/ => generated 8330 bytes in 48 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119443456 bytes/113MB} {rss usage: 38858752 bytes/37MB} [pid: 6697|app: 0|req: 1/8] 61.77.118.91 () {44 vars in 1094 bytes} [Wed Dec  4 01:36:32 2019] GET /admin/login/user/7/delete/ => generated 3268 bytes in 134 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118501376 bytes/113MB} {rss usage: 38006784 bytes/36MB} [pid: 6692|app: 0|req: 1/9] 61.77.118.91 () {52 vars in 1289 bytes} [Wed Dec  4 01:36:33 2019] POST /admin/login/user/7/delete/ => generated 0 bytes in 98 msecs (HTTP/1.1 302) 9 headers in 621 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 120102912 bytes/114MB} {rss usage: 39706624 bytes/37MB} [pid: 6698|app: 0|req: 1/10] 61.77.118.91 () {46 vars in 1281 bytes} [Wed Dec  4 01:36:34 2019] GET /admin/login/user/ => generated 6722 bytes in 168 msecs (HTTP/1.1 200) 9 headers in 624 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 116903936 bytes/111MB} {rss usage: 36311040 bytes/34MB} [pid: 6695|app: 0|req: 1/11] 61.77.118.91 () {42 vars in 909 bytes} [Wed Dec  4 01:36:34 2019] GET /admin/jsi18n/ => generated 8330 bytes in 48 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118251520 bytes/112MB} {rss usage: 37593088 bytes/35MB} [pid: 6699|app: 0|req: 1/12] 61.77.118.91 () {42 vars in 937 bytes} [Wed Dec  4 01:36:42 2019] GET / => generated 12122 bytes in 81 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+Internal Server Error: /login/user/review/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./login/views.py", line 118, in show_review
+    user = get_object_or_404(User, idName=request.session.get("userid"))
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/shortcuts.py", line 93, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+login.models.User.MultipleObjectsReturned: get() returned more than one User -- it returned 2!
+{address space usage: 118603776 bytes/113MB} {rss usage: 37892096 bytes/36MB} [pid: 6700|app: 0|req: 1/13] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 01:36:44 2019] GET /login/user/review/ => generated 70376 bytes in 108 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119169024 bytes/113MB} {rss usage: 38670336 bytes/36MB} [pid: 6702|app: 0|req: 1/14] 61.77.118.91 () {44 vars in 973 bytes} [Wed Dec  4 01:36:49 2019] GET /admin/ => generated 11117 bytes in 133 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 119169024 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6703|app: 0|req: 1/15] 61.77.118.91 () {42 vars in 949 bytes} [Wed Dec  4 01:36:49 2019] GET /admin/ => generated 11117 bytes in 128 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 120102912 bytes/114MB} {rss usage: 39706624 bytes/37MB} [pid: 6701|app: 0|req: 1/16] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:36:51 2019] GET /admin/login/user/ => generated 6583 bytes in 165 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118607872 bytes/113MB} {rss usage: 37957632 bytes/36MB} [pid: 6691|app: 0|req: 2/17] 61.77.118.91 () {42 vars in 909 bytes} [Wed Dec  4 01:36:51 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120229888 bytes/114MB} {rss usage: 39821312 bytes/37MB} [pid: 6690|app: 0|req: 2/18] 61.77.118.91 () {44 vars in 1087 bytes} [Wed Dec  4 01:36:54 2019] GET /admin/login/user/12/change/ => generated 7949 bytes in 56 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 119169024 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6689|app: 0|req: 2/19] 61.77.118.91 () {42 vars in 919 bytes} [Wed Dec  4 01:36:54 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120242176 bytes/114MB} {rss usage: 40050688 bytes/38MB} [pid: 6693|app: 0|req: 2/20] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:36:58 2019] GET /admin/login/user/ => generated 6583 bytes in 56 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120233984 bytes/114MB} {rss usage: 39952384 bytes/38MB} [pid: 6694|app: 0|req: 2/21] 61.77.118.91 () {44 vars in 1087 bytes} [Wed Dec  4 01:36:59 2019] GET /admin/login/user/11/change/ => generated 7928 bytes in 117 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120131584 bytes/114MB} {rss usage: 39714816 bytes/37MB} [pid: 6688|app: 0|req: 2/22] 61.77.118.91 () {42 vars in 919 bytes} [Wed Dec  4 01:36:59 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120225792 bytes/114MB} {rss usage: 39911424 bytes/38MB} [pid: 6696|app: 0|req: 2/23] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:37:06 2019] GET /admin/login/user/ => generated 6583 bytes in 124 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120242176 bytes/114MB} {rss usage: 39890944 bytes/38MB} [pid: 6697|app: 0|req: 2/24] 61.77.118.91 () {44 vars in 1087 bytes} [Wed Dec  4 01:37:07 2019] GET /admin/login/user/10/change/ => generated 7933 bytes in 56 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118661120 bytes/113MB} {rss usage: 38277120 bytes/36MB} [pid: 6692|app: 0|req: 2/25] 61.77.118.91 () {42 vars in 919 bytes} [Wed Dec  4 01:37:07 2019] GET /admin/jsi18n/ => generated 8330 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120500224 bytes/114MB} {rss usage: 40054784 bytes/38MB} [pid: 6698|app: 0|req: 2/26] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:37:09 2019] GET /admin/login/user/ => generated 6583 bytes in 56 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120233984 bytes/114MB} {rss usage: 39690240 bytes/37MB} [pid: 6695|app: 0|req: 2/27] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 01:37:11 2019] GET /admin/login/user/9/change/ => generated 7927 bytes in 118 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118251520 bytes/112MB} {rss usage: 37851136 bytes/36MB} [pid: 6699|app: 0|req: 2/28] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 01:37:11 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120582144 bytes/114MB} {rss usage: 40423424 bytes/38MB} [pid: 6700|app: 0|req: 2/29] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:37:14 2019] GET /admin/login/user/ => generated 6583 bytes in 106 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120229888 bytes/114MB} {rss usage: 39825408 bytes/37MB} [pid: 6702|app: 0|req: 2/30] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 01:37:15 2019] GET /admin/login/user/8/change/ => generated 7956 bytes in 55 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 119169024 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6703|app: 0|req: 2/31] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 01:37:15 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120242176 bytes/114MB} {rss usage: 40050688 bytes/38MB} [pid: 6701|app: 0|req: 2/32] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 01:37:16 2019] GET /admin/login/user/ => generated 6583 bytes in 57 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120594432 bytes/115MB} {rss usage: 40304640 bytes/38MB} [pid: 6691|app: 0|req: 3/33] 61.77.118.91 () {44 vars in 1087 bytes} [Wed Dec  4 01:38:34 2019] GET /admin/login/user/12/change/ => generated 7949 bytes in 100 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120229888 bytes/114MB} {rss usage: 39821312 bytes/37MB} [pid: 6690|app: 0|req: 3/34] 61.77.118.91 () {42 vars in 919 bytes} [Wed Dec  4 01:38:34 2019] GET /admin/jsi18n/ => generated 8330 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 119431168 bytes/113MB} {rss usage: 39112704 bytes/37MB} [pid: 6689|app: 0|req: 3/35] 61.77.118.91 () {52 vars in 1294 bytes} [Wed Dec  4 01:38:43 2019] POST /admin/login/user/12/change/ => generated 0 bytes in 18 msecs (HTTP/1.1 302) 9 headers in 703 bytes (1 switches on core 0)
+{address space usage: 120242176 bytes/114MB} {rss usage: 40050688 bytes/38MB} [pid: 6693|app: 0|req: 3/36] 61.77.118.91 () {46 vars in 1364 bytes} [Wed Dec  4 01:38:44 2019] GET /admin/login/user/ => generated 6772 bytes in 58 msecs (HTTP/1.1 200) 9 headers in 624 bytes (1 switches on core 0)
+{address space usage: 120233984 bytes/114MB} {rss usage: 39952384 bytes/38MB} [pid: 6694|app: 0|req: 3/37] 61.77.118.91 () {42 vars in 909 bytes} [Wed Dec  4 01:38:44 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120668160 bytes/115MB} {rss usage: 40022016 bytes/38MB} [pid: 6688|app: 0|req: 3/38] 61.77.118.91 () {44 vars in 1087 bytes} [Wed Dec  4 01:38:59 2019] GET /admin/login/user/12/change/ => generated 7951 bytes in 52 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120225792 bytes/114MB} {rss usage: 39911424 bytes/38MB} [pid: 6696|app: 0|req: 3/39] 61.77.118.91 () {42 vars in 919 bytes} [Wed Dec  4 01:38:59 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120242176 bytes/114MB} {rss usage: 39890944 bytes/38MB} [pid: 6697|app: 0|req: 3/40] 61.77.118.91 () {42 vars in 937 bytes} [Wed Dec  4 01:39:05 2019] GET / => generated 12122 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 119459840 bytes/113MB} {rss usage: 39055360 bytes/37MB} [pid: 6692|app: 0|req: 3/41] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 01:39:08 2019] GET /login/user/review/ => generated 16386 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 120639488 bytes/115MB} {rss usage: 40054784 bytes/38MB} [pid: 6698|app: 0|req: 3/42] 61.77.118.91 () {44 vars in 1034 bytes} [Wed Dec  4 01:39:13 2019] GET / => generated 12122 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 120233984 bytes/114MB} {rss usage: 39690240 bytes/37MB} [pid: 6695|app: 0|req: 3/43] 211.114.88.216 () {44 vars in 1016 bytes} [Wed Dec  4 01:39:17 2019] GET /login/logout/ => generated 0 bytes in 7 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 118251520 bytes/112MB} {rss usage: 37851136 bytes/36MB} [pid: 6699|app: 0|req: 3/44] 211.114.88.216 () {44 vars in 990 bytes} [Wed Dec  4 01:39:17 2019] GET / => generated 11817 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 120582144 bytes/114MB} {rss usage: 40423424 bytes/38MB} [pid: 6700|app: 0|req: 3/45] 211.114.88.216 () {44 vars in 1002 bytes} [Wed Dec  4 01:39:19 2019] GET /login/ => generated 4571 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 120229888 bytes/114MB} {rss usage: 39825408 bytes/37MB} [pid: 6702|app: 0|req: 3/46] 211.114.88.216 () {52 vars in 1233 bytes} [Wed Dec  4 01:39:27 2019] POST /login/ => generated 0 bytes in 8 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+{address space usage: 119169024 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6703|app: 0|req: 3/47] 211.114.88.216 () {46 vars in 1027 bytes} [Wed Dec  4 01:39:27 2019] GET / => generated 11976 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 120401920 bytes/114MB} {rss usage: 40050688 bytes/38MB} [pid: 6701|app: 0|req: 3/48] 211.114.88.216 () {44 vars in 1026 bytes} [Wed Dec  4 01:39:29 2019] GET /login/user/review/ => generated 16598 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+Wed Dec  4 01:39:40 2019 - *** /home/ubuntu/src/SW-engineering-project/reservation/reservation/settings.py has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 6688)...
+Gracefully killing worker 2 (pid: 6689)...
+Gracefully killing worker 3 (pid: 6690)...
+Gracefully killing worker 4 (pid: 6691)...
+Gracefully killing worker 5 (pid: 6692)...
+Gracefully killing worker 6 (pid: 6693)...
+Gracefully killing worker 7 (pid: 6694)...
+Gracefully killing worker 8 (pid: 6695)...
+Gracefully killing worker 9 (pid: 6696)...
+Gracefully killing worker 10 (pid: 6697)...
+Gracefully killing worker 11 (pid: 6698)...
+Gracefully killing worker 12 (pid: 6699)...
+Gracefully killing worker 13 (pid: 6700)...
+Gracefully killing worker 15 (pid: 6702)...
+Gracefully killing worker 16 (pid: 6703)...
+Gracefully killing worker 14 (pid: 6701)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+worker 11 buried after 2 seconds
+worker 12 buried after 2 seconds
+worker 13 buried after 2 seconds
+worker 14 buried after 2 seconds
+worker 15 buried after 2 seconds
+worker 16 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/sites
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/src/SW-engineering-project/reservation/reservation.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 7) ***
+[uWSGI] getting INI configuration from SW-engineering-project.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Dec  4 01:39:42 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 inherited UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12f0590
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x12f0590 pid: 6565 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 6565)
+spawned uWSGI worker 1 (pid: 6727, cores: 1)
+spawned uWSGI worker 2 (pid: 6728, cores: 1)
+spawned uWSGI worker 3 (pid: 6729, cores: 1)
+spawned uWSGI worker 4 (pid: 6730, cores: 1)
+spawned uWSGI worker 5 (pid: 6731, cores: 1)
+spawned uWSGI worker 6 (pid: 6732, cores: 1)
+spawned uWSGI worker 7 (pid: 6733, cores: 1)
+spawned uWSGI worker 8 (pid: 6734, cores: 1)
+spawned uWSGI worker 9 (pid: 6735, cores: 1)
+spawned uWSGI worker 10 (pid: 6736, cores: 1)
+spawned uWSGI worker 11 (pid: 6737, cores: 1)
+spawned uWSGI worker 12 (pid: 6738, cores: 1)
+spawned uWSGI worker 13 (pid: 6739, cores: 1)
+spawned uWSGI worker 14 (pid: 6740, cores: 1)
+spawned uWSGI worker 15 (pid: 6741, cores: 1)
+spawned uWSGI worker 16 (pid: 6742, cores: 1)
+{address space usage: 118083584 bytes/112MB} {rss usage: 37613568 bytes/35MB} [pid: 6729|app: 0|req: 1/1] 211.114.88.216 () {44 vars in 1022 bytes} [Wed Dec  4 01:39:43 2019] GET /reserv/ => generated 5279 bytes in 89 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118202368 bytes/112MB} {rss usage: 37871616 bytes/36MB} [pid: 6730|app: 0|req: 1/2] 211.114.88.216 () {44 vars in 1023 bytes} [Wed Dec  4 01:39:44 2019] GET /reserv/check/ => generated 5278 bytes in 102 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118075392 bytes/112MB} {rss usage: 37654528 bytes/35MB} [pid: 6731|app: 0|req: 1/3] 211.114.88.216 () {44 vars in 1036 bytes} [Wed Dec  4 01:39:50 2019] GET /reserv/modify/5/? => generated 5059 bytes in 77 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+/home/ubuntu/.local/lib/python3.5/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Reservation.reservation_time received a naive datetime (2019-12-22 17:00:00) while time zone support is active.
+  RuntimeWarning)
+{address space usage: 118116352 bytes/112MB} {rss usage: 37359616 bytes/35MB} [pid: 6728|app: 0|req: 1/4] 211.114.88.216 () {52 vars in 1280 bytes} [Wed Dec  4 01:40:07 2019] POST /reserv/modify/5/success/ => generated 0 bytes in 91 msecs (HTTP/1.1 302) 5 headers in 275 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118071296 bytes/112MB} {rss usage: 37748736 bytes/36MB} [pid: 6732|app: 0|req: 1/5] 211.114.88.216 () {46 vars in 1052 bytes} [Wed Dec  4 01:40:07 2019] GET /reserv/ => generated 5279 bytes in 81 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118202368 bytes/112MB} {rss usage: 37871616 bytes/36MB} [pid: 6733|app: 0|req: 1/6] 211.114.88.216 () {44 vars in 1023 bytes} [Wed Dec  4 01:40:09 2019] GET /reserv/check/ => generated 5278 bytes in 98 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118075392 bytes/112MB} {rss usage: 37654528 bytes/35MB} [pid: 6727|app: 0|req: 1/7] 211.114.88.216 () {44 vars in 1036 bytes} [Wed Dec  4 01:42:40 2019] GET /reserv/modify/5/? => generated 5059 bytes in 79 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118083584 bytes/112MB} {rss usage: 37613568 bytes/35MB} [pid: 6734|app: 0|req: 1/8] 211.114.88.216 () {44 vars in 1021 bytes} [Wed Dec  4 01:42:44 2019] GET /reserv/ => generated 5279 bytes in 76 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118214656 bytes/112MB} {rss usage: 37945344 bytes/36MB} [pid: 6735|app: 0|req: 1/9] 211.114.88.216 () {44 vars in 1033 bytes} [Wed Dec  4 01:42:49 2019] GET /login/user/review/ => generated 16598 bytes in 88 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118071296 bytes/112MB} {rss usage: 37679104 bytes/35MB} [pid: 6738|app: 0|req: 1/10] 61.77.118.91 () {44 vars in 1042 bytes} [Wed Dec  4 01:47:21 2019] GET /manager/page/ => generated 4926 bytes in 76 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118231040 bytes/112MB} {rss usage: 37982208 bytes/36MB} [pid: 6737|app: 0|req: 1/11] 61.77.118.91 () {44 vars in 1065 bytes} [Wed Dec  4 01:47:51 2019] GET /login/user/review/ => generated 16386 bytes in 89 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118206464 bytes/112MB} {rss usage: 37711872 bytes/35MB} [pid: 6736|app: 0|req: 1/12] 61.77.118.91 () {44 vars in 1034 bytes} [Wed Dec  4 01:48:01 2019] GET / => generated 12122 bytes in 83 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117407744 bytes/111MB} {rss usage: 37187584 bytes/35MB} [pid: 6739|app: 0|req: 1/13] 61.77.118.91 () {44 vars in 1042 bytes} [Wed Dec  4 01:49:53 2019] GET /login/logout/ => generated 0 bytes in 65 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118206464 bytes/112MB} {rss usage: 37703680 bytes/35MB} [pid: 6740|app: 0|req: 1/14] 61.77.118.91 () {44 vars in 1016 bytes} [Wed Dec  4 01:49:54 2019] GET / => generated 11817 bytes in 80 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118071296 bytes/112MB} {rss usage: 37527552 bytes/35MB} [pid: 6741|app: 0|req: 1/15] 61.77.118.91 () {44 vars in 1028 bytes} [Wed Dec  4 01:49:55 2019] GET /login/ => generated 4571 bytes in 79 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117669888 bytes/112MB} {rss usage: 37220352 bytes/35MB} [pid: 6742|app: 0|req: 1/16] 61.77.118.91 () {52 vars in 1229 bytes} [Wed Dec  4 01:49:58 2019] POST /login/ => generated 0 bytes in 64 msecs (HTTP/1.1 302) 6 headers in 282 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118218752 bytes/112MB} {rss usage: 37847040 bytes/36MB} [pid: 6729|app: 0|req: 2/17] 61.77.118.91 () {46 vars in 1053 bytes} [Wed Dec  4 01:49:58 2019] GET / => generated 11976 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118599680 bytes/113MB} {rss usage: 38182912 bytes/36MB} [pid: 6730|app: 0|req: 2/18] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 01:49:59 2019] GET /login/user/review/ => generated 16598 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118214656 bytes/112MB} {rss usage: 37888000 bytes/36MB} [pid: 6731|app: 0|req: 2/19] 211.114.88.216 () {44 vars in 1068 bytes} [Wed Dec  4 01:50:07 2019] GET /login/user/review/myreview/11/ => generated 3740 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118775808 bytes/113MB} {rss usage: 38522880 bytes/36MB} [pid: 6728|app: 0|req: 2/20] 61.77.118.91 () {44 vars in 1094 bytes} [Wed Dec  4 01:50:10 2019] GET /login/user/review/myreview/10/ => generated 4953 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118362112 bytes/112MB} {rss usage: 38244352 bytes/36MB} [pid: 6732|app: 0|req: 2/21] 61.77.118.91 () {44 vars in 1082 bytes} [Wed Dec  4 01:50:13 2019] GET /login/user/review/ => generated 16598 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118464512 bytes/112MB} {rss usage: 38137856 bytes/36MB} [pid: 6733|app: 0|req: 2/22] 211.114.88.216 () {52 vars in 1281 bytes} [Wed Dec  4 01:52:17 2019] POST /login/user/review/write/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 6 headers in 300 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118353920 bytes/112MB} {rss usage: 38232064 bytes/36MB} [pid: 6727|app: 0|req: 2/23] 211.114.88.216 () {46 vars in 1075 bytes} [Wed Dec  4 01:52:17 2019] GET /login/user/review/ => generated 16665 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118362112 bytes/112MB} {rss usage: 38244352 bytes/36MB} [pid: 6734|app: 0|req: 2/24] 211.114.88.216 () {44 vars in 1044 bytes} [Wed Dec  4 01:52:19 2019] GET /login/user/review/ => generated 16665 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118476800 bytes/112MB} {rss usage: 38182912 bytes/36MB} [pid: 6735|app: 0|req: 2/25] 211.114.88.216 () {44 vars in 1068 bytes} [Wed Dec  4 01:52:21 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 118206464 bytes/112MB} {rss usage: 37871616 bytes/36MB} [pid: 6738|app: 0|req: 2/26] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:53:04 2019] GET /login/user/review/myreview/modify/7/ => generated 5470 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118493184 bytes/113MB} {rss usage: 38203392 bytes/36MB} [pid: 6737|app: 0|req: 2/27] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:53:09 2019] GET /login/user/review/myreview/modify/7/ => generated 5470 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118206464 bytes/112MB} {rss usage: 37965824 bytes/36MB} [pid: 6736|app: 0|req: 2/28] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:53:16 2019] GET /login/user/review/myreview/modify/7/ => generated 5470 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118202368 bytes/112MB} {rss usage: 37883904 bytes/36MB} [pid: 6739|app: 0|req: 2/29] 211.114.88.216 () {44 vars in 1020 bytes} [Wed Dec  4 01:53:19 2019] GET / => generated 11976 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118345728 bytes/112MB} {rss usage: 38293504 bytes/36MB} [pid: 6740|app: 0|req: 2/30] 211.114.88.216 () {44 vars in 1026 bytes} [Wed Dec  4 01:53:20 2019] GET /login/user/review/ => generated 16665 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118206464 bytes/112MB} {rss usage: 38154240 bytes/36MB} [pid: 6741|app: 0|req: 2/31] 211.114.88.216 () {44 vars in 1057 bytes} [Wed Dec  4 01:53:25 2019] GET /login/user/review/?page=2 => generated 13096 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118218752 bytes/112MB} {rss usage: 38055936 bytes/36MB} [pid: 6742|app: 0|req: 2/32] 211.114.88.216 () {44 vars in 1064 bytes} [Wed Dec  4 01:53:40 2019] GET /login/user/review/?page=1 => generated 16665 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118620160 bytes/113MB} {rss usage: 38260736 bytes/36MB} [pid: 6729|app: 0|req: 3/33] 211.114.88.216 () {46 vars in 1095 bytes} [Wed Dec  4 01:54:13 2019] GET /login/user/review/?page=1 => generated 16665 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118734848 bytes/113MB} {rss usage: 38416384 bytes/36MB} [pid: 6730|app: 0|req: 3/34] 61.77.118.91 () {46 vars in 1113 bytes} [Wed Dec  4 01:54:19 2019] GET /login/user/review/ => generated 16665 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118620160 bytes/113MB} {rss usage: 38109184 bytes/36MB} [pid: 6731|app: 0|req: 3/35] 61.77.118.91 () {46 vars in 1113 bytes} [Wed Dec  4 01:54:22 2019] GET /login/user/review/ => generated 16665 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 119050240 bytes/113MB} {rss usage: 38760448 bytes/36MB} [pid: 6728|app: 0|req: 3/36] 211.114.88.216 () {44 vars in 1064 bytes} [Wed Dec  4 01:55:06 2019] GET /login/user/review/?page=2 => generated 13096 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38252544 bytes/36MB} [pid: 6732|app: 0|req: 3/37] 211.114.88.216 () {44 vars in 1075 bytes} [Wed Dec  4 01:55:38 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 118599680 bytes/113MB} {rss usage: 38137856 bytes/36MB} [pid: 6733|app: 0|req: 3/38] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:55:41 2019] GET /login/user/review/myreview/modify/7/ => generated 5470 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118616064 bytes/113MB} {rss usage: 38232064 bytes/36MB} [pid: 6727|app: 0|req: 3/39] 211.114.88.216 () {52 vars in 1323 bytes} [Wed Dec  4 01:55:54 2019] POST /login/user/review/myreview/modify/7/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 6 headers in 312 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38248448 bytes/36MB} [pid: 6734|app: 0|req: 3/40] 211.114.88.216 () {46 vars in 1117 bytes} [Wed Dec  4 01:55:54 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38182912 bytes/36MB} [pid: 6735|app: 0|req: 3/41] 211.114.88.216 () {44 vars in 1056 bytes} [Wed Dec  4 01:55:57 2019] GET /login/user/review/ => generated 16665 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38158336 bytes/36MB} [pid: 6738|app: 0|req: 3/42] 211.114.88.216 () {44 vars in 1057 bytes} [Wed Dec  4 01:55:59 2019] GET /login/user/review/?page=2 => generated 13096 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118493184 bytes/113MB} {rss usage: 38203392 bytes/36MB} [pid: 6737|app: 0|req: 3/43] 211.114.88.216 () {44 vars in 1075 bytes} [Wed Dec  4 01:56:17 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 118206464 bytes/112MB} {rss usage: 37965824 bytes/36MB} [pid: 6736|app: 0|req: 3/44] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:56:19 2019] GET /login/user/review/myreview/modify/7/ => generated 5470 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118202368 bytes/112MB} {rss usage: 38047744 bytes/36MB} [pid: 6739|app: 0|req: 3/45] 211.114.88.216 () {52 vars in 1323 bytes} [Wed Dec  4 01:56:24 2019] POST /login/user/review/myreview/modify/7/ => generated 0 bytes in 13 msecs (HTTP/1.1 302) 6 headers in 312 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118607872 bytes/113MB} {rss usage: 38293504 bytes/36MB} [pid: 6740|app: 0|req: 3/46] 211.114.88.216 () {46 vars in 1117 bytes} [Wed Dec  4 01:56:24 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 118468608 bytes/112MB} {rss usage: 38203392 bytes/36MB} [pid: 6741|app: 0|req: 3/47] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:56:33 2019] GET /login/user/review/myreview/modify/7/ => generated 5460 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118366208 bytes/112MB} {rss usage: 38055936 bytes/36MB} [pid: 6742|app: 0|req: 3/48] 211.114.88.216 () {44 vars in 1056 bytes} [Wed Dec  4 01:56:40 2019] GET /login/user/review/ => generated 16665 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118620160 bytes/113MB} {rss usage: 38260736 bytes/36MB} [pid: 6729|app: 0|req: 4/49] 211.114.88.216 () {44 vars in 1057 bytes} [Wed Dec  4 01:56:42 2019] GET /login/user/review/?page=2 => generated 13086 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118734848 bytes/113MB} {rss usage: 38416384 bytes/36MB} [pid: 6730|app: 0|req: 4/50] 211.114.88.216 () {44 vars in 1075 bytes} [Wed Dec  4 01:57:32 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 118620160 bytes/113MB} {rss usage: 38334464 bytes/36MB} [pid: 6731|app: 0|req: 4/51] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:57:35 2019] GET /login/user/review/myreview/modify/7/ => generated 5460 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 119050240 bytes/113MB} {rss usage: 38760448 bytes/36MB} [pid: 6728|app: 0|req: 4/52] 211.114.88.216 () {52 vars in 1323 bytes} [Wed Dec  4 01:58:01 2019] POST /login/user/review/myreview/modify/7/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 6 headers in 312 bytes (1 switches on core 0)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38252544 bytes/36MB} [pid: 6732|app: 0|req: 4/53] 211.114.88.216 () {46 vars in 1117 bytes} [Wed Dec  4 01:58:01 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118755328 bytes/113MB} {rss usage: 38326272 bytes/36MB} [pid: 6733|app: 0|req: 4/54] 211.114.88.216 () {44 vars in 1056 bytes} [Wed Dec  4 01:58:04 2019] GET /login/user/review/ => generated 16665 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118616064 bytes/113MB} {rss usage: 38232064 bytes/36MB} [pid: 6727|app: 0|req: 4/55] 211.114.88.216 () {44 vars in 1057 bytes} [Wed Dec  4 01:58:06 2019] GET /login/user/review/?page=2 => generated 13078 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38248448 bytes/36MB} [pid: 6734|app: 0|req: 4/56] 211.114.88.216 () {44 vars in 1075 bytes} [Wed Dec  4 01:59:41 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38182912 bytes/36MB} [pid: 6735|app: 0|req: 4/57] 211.114.88.216 () {44 vars in 1092 bytes} [Wed Dec  4 01:59:43 2019] GET /login/user/review/myreview/modify/7/ => generated 5452 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 437 bytes (1 switches on core 0)
+{address space usage: 118624256 bytes/113MB} {rss usage: 38158336 bytes/36MB} [pid: 6738|app: 0|req: 4/58] 211.114.88.216 () {52 vars in 1323 bytes} [Wed Dec  4 02:00:07 2019] POST /login/user/review/myreview/modify/7/ => generated 0 bytes in 13 msecs (HTTP/1.1 302) 6 headers in 312 bytes (1 switches on core 0)
+{address space usage: 118493184 bytes/113MB} {rss usage: 38203392 bytes/36MB} [pid: 6737|app: 0|req: 4/59] 211.114.88.216 () {46 vars in 1117 bytes} [Wed Dec  4 02:00:07 2019] GET /login/user/review/myreview/11/ => generated 4358 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118603776 bytes/113MB} {rss usage: 38391808 bytes/36MB} [pid: 6736|app: 0|req: 4/60] 211.114.88.216 () {44 vars in 1056 bytes} [Wed Dec  4 02:00:09 2019] GET /login/user/review/ => generated 16665 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118599680 bytes/113MB} {rss usage: 38195200 bytes/36MB} [pid: 6739|app: 0|req: 4/61] 211.114.88.216 () {44 vars in 1057 bytes} [Wed Dec  4 02:00:11 2019] GET /login/user/review/?page=2 => generated 13096 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118607872 bytes/113MB} {rss usage: 38293504 bytes/36MB} [pid: 6740|app: 0|req: 4/62] 211.114.88.216 () {44 vars in 1015 bytes} [Wed Dec  4 02:01:34 2019] GET / => generated 11976 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 118620160 bytes/113MB} {rss usage: 38203392 bytes/36MB} [pid: 6741|app: 0|req: 4/63] 211.114.88.216 () {44 vars in 1026 bytes} [Wed Dec  4 02:03:24 2019] GET /login/user/review/ => generated 16665 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+Wed Dec  4 02:12:57 2019 - *** /home/ubuntu/src/SW-engineering-project/reservation/reservation/settings.py has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 6727)...
+Gracefully killing worker 2 (pid: 6728)...
+Gracefully killing worker 3 (pid: 6729)...
+Gracefully killing worker 4 (pid: 6730)...
+Gracefully killing worker 5 (pid: 6731)...
+Gracefully killing worker 6 (pid: 6732)...
+Gracefully killing worker 7 (pid: 6733)...
+Gracefully killing worker 8 (pid: 6734)...
+Gracefully killing worker 9 (pid: 6735)...
+Gracefully killing worker 10 (pid: 6736)...
+Gracefully killing worker 11 (pid: 6737)...
+Gracefully killing worker 12 (pid: 6738)...
+Gracefully killing worker 13 (pid: 6739)...
+Gracefully killing worker 14 (pid: 6740)...
+Gracefully killing worker 15 (pid: 6741)...
+Gracefully killing worker 16 (pid: 6742)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+worker 11 buried after 2 seconds
+worker 12 buried after 2 seconds
+worker 13 buried after 2 seconds
+worker 14 buried after 2 seconds
+worker 15 buried after 2 seconds
+worker 16 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/sites
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ubuntu/src/SW-engineering-project/reservation/reservation.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 7) ***
+[uWSGI] getting INI configuration from SW-engineering-project.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Dec  4 02:12:59 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 inherited UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x209e590
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x209e590 pid: 6565 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 6565)
+spawned uWSGI worker 1 (pid: 6829, cores: 1)
+spawned uWSGI worker 2 (pid: 6830, cores: 1)
+spawned uWSGI worker 3 (pid: 6831, cores: 1)
+spawned uWSGI worker 4 (pid: 6832, cores: 1)
+spawned uWSGI worker 5 (pid: 6833, cores: 1)
+spawned uWSGI worker 6 (pid: 6834, cores: 1)
+spawned uWSGI worker 7 (pid: 6835, cores: 1)
+spawned uWSGI worker 8 (pid: 6836, cores: 1)
+spawned uWSGI worker 9 (pid: 6837, cores: 1)
+spawned uWSGI worker 10 (pid: 6838, cores: 1)
+spawned uWSGI worker 11 (pid: 6839, cores: 1)
+spawned uWSGI worker 12 (pid: 6840, cores: 1)
+spawned uWSGI worker 13 (pid: 6841, cores: 1)
+spawned uWSGI worker 14 (pid: 6842, cores: 1)
+spawned uWSGI worker 15 (pid: 6843, cores: 1)
+spawned uWSGI worker 16 (pid: 6844, cores: 1)
+Wed Dec  4 02:14:15 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 17:14:20 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1adfc60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1adfc60 pid: 6898 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6898)
+spawned uWSGI worker 1 (pid: 6916, cores: 1)
+spawned uWSGI worker 2 (pid: 6917, cores: 1)
+spawned uWSGI worker 3 (pid: 6918, cores: 1)
+spawned uWSGI worker 4 (pid: 6919, cores: 1)
+spawned uWSGI worker 5 (pid: 6920, cores: 1)
+spawned uWSGI worker 6 (pid: 6921, cores: 1)
+spawned uWSGI worker 7 (pid: 6922, cores: 1)
+spawned uWSGI worker 8 (pid: 6923, cores: 1)
+spawned uWSGI worker 9 (pid: 6924, cores: 1)
+spawned uWSGI worker 10 (pid: 6925, cores: 1)
+spawned uWSGI worker 11 (pid: 6926, cores: 1)
+spawned uWSGI worker 12 (pid: 6927, cores: 1)
+spawned uWSGI worker 13 (pid: 6928, cores: 1)
+spawned uWSGI worker 14 (pid: 6929, cores: 1)
+spawned uWSGI worker 15 (pid: 6930, cores: 1)
+spawned uWSGI worker 16 (pid: 6931, cores: 1)
+{address space usage: 118165504 bytes/112MB} {rss usage: 37855232 bytes/36MB} [pid: 6919|app: 0|req: 1/1] 61.77.118.91 () {42 vars in 937 bytes} [Wed Dec  4 02:14:35 2019] GET / => generated 11976 bytes in 85 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118333440 bytes/112MB} {rss usage: 37978112 bytes/36MB} [pid: 6918|app: 0|req: 1/2] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 02:14:38 2019] GET /login/user/review/ => generated 16665 bytes in 90 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37941248 bytes/36MB} [pid: 6920|app: 0|req: 1/3] 61.77.118.91 () {44 vars in 1094 bytes} [Wed Dec  4 02:14:41 2019] GET /login/user/review/myreview/10/ => generated 5267 bytes in 86 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117653504 bytes/112MB} {rss usage: 37289984 bytes/35MB} [pid: 6917|app: 0|req: 1/4] 61.77.118.91 () {44 vars in 1090 bytes} [Wed Dec  4 02:14:43 2019] GET /login/review/delete/6/ => generated 0 bytes in 70 msecs (HTTP/1.1 302) 6 headers in 312 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37920768 bytes/36MB} [pid: 6921|app: 0|req: 1/5] 61.77.118.91 () {44 vars in 1106 bytes} [Wed Dec  4 02:14:43 2019] GET /login/user/review/myreview/10/ => generated 4520 bytes in 83 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118194176 bytes/112MB} {rss usage: 37752832 bytes/36MB} [pid: 6922|app: 0|req: 1/6] 61.77.118.91 () {44 vars in 1046 bytes} [Wed Dec  4 02:14:48 2019] GET / => generated 11976 bytes in 81 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118333440 bytes/112MB} {rss usage: 37978112 bytes/36MB} [pid: 6916|app: 0|req: 1/7] 211.114.88.216 () {46 vars in 1057 bytes} [Wed Dec  4 02:15:19 2019] GET /login/user/review/ => generated 16622 bytes in 87 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37920768 bytes/36MB} [pid: 6923|app: 0|req: 1/8] 211.114.88.216 () {44 vars in 1068 bytes} [Wed Dec  4 02:15:22 2019] GET /login/user/review/myreview/11/ => generated 4538 bytes in 85 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 117653504 bytes/112MB} {rss usage: 37285888 bytes/35MB} [pid: 6924|app: 0|req: 1/9] 211.114.88.216 () {44 vars in 1064 bytes} [Wed Dec  4 02:17:12 2019] GET /login/review/delete/7/ => generated 0 bytes in 71 msecs (HTTP/1.1 302) 6 headers in 312 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37785600 bytes/36MB} [pid: 6927|app: 0|req: 1/10] 211.114.88.216 () {44 vars in 1080 bytes} [Wed Dec  4 02:17:12 2019] GET /login/user/review/myreview/11/ => generated 3786 bytes in 84 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118325248 bytes/112MB} {rss usage: 38043648 bytes/36MB} [pid: 6926|app: 0|req: 1/11] 211.114.88.216 () {44 vars in 1056 bytes} [Wed Dec  4 02:19:44 2019] GET /login/user/review/ => generated 15878 bytes in 89 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118206464 bytes/112MB} {rss usage: 37298176 bytes/35MB} [pid: 6928|app: 0|req: 1/12] 34.221.22.2 () {34 vars in 499 bytes} [Wed Dec  4 02:20:22 2019] GET / => generated 11817 bytes in 75 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118206464 bytes/112MB} {rss usage: 37298176 bytes/35MB} [pid: 6929|app: 0|req: 1/13] 5.189.134.236 () {30 vars in 377 bytes} [Wed Dec  4 02:31:11 2019] GET / => generated 11817 bytes in 76 msecs (HTTP/1.0 200) 5 headers in 293 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118206464 bytes/112MB} {rss usage: 37281792 bytes/35MB} [pid: 6930|app: 0|req: 1/14] 209.17.96.74 () {30 vars in 414 bytes} [Wed Dec  4 02:31:39 2019] GET / => generated 11817 bytes in 76 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118206464 bytes/112MB} {rss usage: 37285888 bytes/35MB} [pid: 6925|app: 0|req: 1/15] 209.17.97.18 () {30 vars in 409 bytes} [Wed Dec  4 02:34:03 2019] GET / => generated 11817 bytes in 78 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118206464 bytes/112MB} {rss usage: 36958208 bytes/35MB} [pid: 6931|app: 0|req: 1/16] 168.195.230.152 () {32 vars in 468 bytes} [Wed Dec  4 02:37:32 2019] GET / => generated 11817 bytes in 172 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118165504 bytes/112MB} {rss usage: 37363712 bytes/35MB} [pid: 6919|app: 0|req: 2/17] 209.17.97.50 () {30 vars in 413 bytes} [Wed Dec  4 02:42:53 2019] GET / => generated 11817 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+{address space usage: 118333440 bytes/112MB} {rss usage: 37031936 bytes/35MB} [pid: 6918|app: 0|req: 2/18] 61.77.118.91 () {42 vars in 592 bytes} [Wed Dec  4 02:51:07 2019] HEAD / => generated 11817 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+{address space usage: 118349824 bytes/112MB} {rss usage: 37470208 bytes/35MB} [pid: 6920|app: 0|req: 2/19] 61.77.118.91 () {38 vars in 667 bytes} [Wed Dec  4 02:51:07 2019] GET / => generated 11817 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+{address space usage: 118329344 bytes/112MB} {rss usage: 37392384 bytes/35MB} [pid: 6917|app: 0|req: 2/20] 61.77.118.91 () {42 vars in 937 bytes} [Wed Dec  4 02:51:09 2019] GET / => generated 11976 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 38797312 bytes/37MB} [pid: 6921|app: 0|req: 2/21] 61.77.118.91 () {44 vars in 973 bytes} [Wed Dec  4 02:51:16 2019] GET /admin/ => generated 11110 bytes in 72 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 119267328 bytes/113MB} {rss usage: 38670336 bytes/36MB} [pid: 6922|app: 0|req: 2/22] 61.77.118.91 () {42 vars in 949 bytes} [Wed Dec  4 02:51:16 2019] GET /admin/ => generated 11110 bytes in 72 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 120451072 bytes/114MB} {rss usage: 39661568 bytes/37MB} [pid: 6916|app: 0|req: 2/23] 61.77.118.91 () {44 vars in 1060 bytes} [Wed Dec  4 02:51:22 2019] GET /admin/login/review/ => generated 5350 bytes in 101 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37568512 bytes/35MB} [pid: 6923|app: 0|req: 2/24] 61.77.118.91 () {42 vars in 911 bytes} [Wed Dec  4 02:51:23 2019] GET /admin/jsi18n/ => generated 8330 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 118185984 bytes/112MB} {rss usage: 37474304 bytes/35MB} [pid: 6924|app: 0|req: 2/25] 61.77.118.91 () {44 vars in 1059 bytes} [Wed Dec  4 02:51:25 2019] GET /admin/login/ => generated 0 bytes in 23 msecs (HTTP/1.1 302) 8 headers in 391 bytes (1 switches on core 0)
+{address space usage: 119296000 bytes/113MB} {rss usage: 38694912 bytes/36MB} [pid: 6927|app: 0|req: 2/26] 61.77.118.91 () {44 vars in 1047 bytes} [Wed Dec  4 02:51:25 2019] GET /admin/ => generated 11110 bytes in 67 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 120455168 bytes/114MB} {rss usage: 39653376 bytes/37MB} [pid: 6926|app: 0|req: 2/27] 61.77.118.91 () {44 vars in 1064 bytes} [Wed Dec  4 02:51:28 2019] GET /admin/login/location/ => generated 4442 bytes in 80 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118206464 bytes/112MB} {rss usage: 37531648 bytes/35MB} [pid: 6928|app: 0|req: 2/28] 61.77.118.91 () {42 vars in 913 bytes} [Wed Dec  4 02:51:28 2019] GET /admin/jsi18n/ => generated 8330 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 118603776 bytes/113MB} {rss usage: 37875712 bytes/36MB} [pid: 6929|app: 0|req: 2/29] 61.77.118.91 () {44 vars in 1061 bytes} [Wed Dec  4 02:51:29 2019] GET /admin/login/ => generated 0 bytes in 23 msecs (HTTP/1.1 302) 8 headers in 391 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 38600704 bytes/36MB} [pid: 6930|app: 0|req: 2/30] 61.77.118.91 () {44 vars in 1049 bytes} [Wed Dec  4 02:51:29 2019] GET /admin/ => generated 11110 bytes in 68 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 120193024 bytes/114MB} {rss usage: 39751680 bytes/37MB} [pid: 6925|app: 0|req: 2/31] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:32 2019] GET /admin/login/user/ => generated 6583 bytes in 99 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118206464 bytes/112MB} {rss usage: 37629952 bytes/35MB} [pid: 6931|app: 0|req: 2/32] 61.77.118.91 () {42 vars in 909 bytes} [Wed Dec  4 02:51:32 2019] GET /admin/jsi18n/ => generated 8330 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120156160 bytes/114MB} {rss usage: 39534592 bytes/37MB} [pid: 6919|app: 0|req: 3/33] 61.77.118.91 () {44 vars in 1087 bytes} [Wed Dec  4 02:51:34 2019] GET /admin/login/user/10/change/ => generated 7933 bytes in 97 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118333440 bytes/112MB} {rss usage: 37031936 bytes/35MB} [pid: 6918|app: 0|req: 3/34] 61.77.118.91 () {42 vars in 919 bytes} [Wed Dec  4 02:51:34 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120483840 bytes/114MB} {rss usage: 39763968 bytes/37MB} [pid: 6920|app: 0|req: 3/35] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:36 2019] GET /admin/login/user/ => generated 6583 bytes in 99 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120197120 bytes/114MB} {rss usage: 39632896 bytes/37MB} [pid: 6917|app: 0|req: 3/36] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:51:37 2019] GET /admin/login/user/9/change/ => generated 7927 bytes in 95 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 38797312 bytes/37MB} [pid: 6921|app: 0|req: 3/37] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:51:37 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120586240 bytes/115MB} {rss usage: 39739392 bytes/37MB} [pid: 6922|app: 0|req: 3/38] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:39 2019] GET /admin/login/user/ => generated 6583 bytes in 61 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120721408 bytes/115MB} {rss usage: 40067072 bytes/38MB} [pid: 6916|app: 0|req: 3/39] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:51:40 2019] GET /admin/login/user/8/change/ => generated 7956 bytes in 51 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 118198272 bytes/112MB} {rss usage: 37568512 bytes/35MB} [pid: 6923|app: 0|req: 3/40] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:51:40 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120463360 bytes/114MB} {rss usage: 39751680 bytes/37MB} [pid: 6924|app: 0|req: 3/41] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:42 2019] GET /admin/login/user/ => generated 6583 bytes in 94 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120479744 bytes/114MB} {rss usage: 39759872 bytes/37MB} [pid: 6927|app: 0|req: 3/42] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:51:43 2019] GET /admin/login/user/6/change/ => generated 7963 bytes in 55 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120455168 bytes/114MB} {rss usage: 39653376 bytes/37MB} [pid: 6926|app: 0|req: 3/43] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:51:43 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120475648 bytes/114MB} {rss usage: 39772160 bytes/37MB} [pid: 6928|app: 0|req: 3/44] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:45 2019] GET /admin/login/user/ => generated 6583 bytes in 98 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120221696 bytes/114MB} {rss usage: 39530496 bytes/37MB} [pid: 6929|app: 0|req: 3/45] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:51:47 2019] GET /admin/login/user/5/change/ => generated 7930 bytes in 80 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6930|app: 0|req: 3/46] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:51:47 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120590336 bytes/115MB} {rss usage: 40108032 bytes/38MB} [pid: 6925|app: 0|req: 3/47] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:48 2019] GET /admin/login/user/ => generated 6583 bytes in 54 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120213504 bytes/114MB} {rss usage: 39591936 bytes/37MB} [pid: 6931|app: 0|req: 3/48] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:51:49 2019] GET /admin/login/user/4/change/ => generated 7944 bytes in 92 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120303616 bytes/114MB} {rss usage: 39731200 bytes/37MB} [pid: 6919|app: 0|req: 4/49] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:51:50 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120492032 bytes/114MB} {rss usage: 39899136 bytes/38MB} [pid: 6918|app: 0|req: 4/50] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:51 2019] GET /admin/login/user/ => generated 6583 bytes in 99 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120758272 bytes/115MB} {rss usage: 40181760 bytes/38MB} [pid: 6920|app: 0|req: 4/51] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:51:52 2019] GET /admin/login/user/3/change/ => generated 7947 bytes in 51 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120197120 bytes/114MB} {rss usage: 39632896 bytes/37MB} [pid: 6917|app: 0|req: 4/52] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:51:52 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120619008 bytes/115MB} {rss usage: 39878656 bytes/38MB} [pid: 6921|app: 0|req: 4/53] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:51:56 2019] GET /admin/login/user/ => generated 6583 bytes in 60 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120586240 bytes/115MB} {rss usage: 39907328 bytes/38MB} [pid: 6922|app: 0|req: 4/54] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:51:58 2019] GET /admin/login/user/6/change/ => generated 7963 bytes in 52 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120721408 bytes/115MB} {rss usage: 40067072 bytes/38MB} [pid: 6916|app: 0|req: 4/55] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:51:58 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120467456 bytes/114MB} {rss usage: 39882752 bytes/38MB} [pid: 6923|app: 0|req: 4/56] 61.77.118.91 () {44 vars in 1056 bytes} [Wed Dec  4 02:52:00 2019] GET /admin/login/user/ => generated 6583 bytes in 100 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120598528 bytes/115MB} {rss usage: 39890944 bytes/38MB} [pid: 6924|app: 0|req: 4/57] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:52:03 2019] GET /admin/login/user/3/change/ => generated 7947 bytes in 51 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120479744 bytes/114MB} {rss usage: 39759872 bytes/37MB} [pid: 6927|app: 0|req: 4/58] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:52:03 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120455168 bytes/114MB} {rss usage: 39854080 bytes/38MB} [pid: 6926|app: 0|req: 4/59] 61.77.118.91 () {44 vars in 1094 bytes} [Wed Dec  4 02:52:05 2019] GET /admin/login/user/3/delete/ => generated 3304 bytes in 29 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120475648 bytes/114MB} {rss usage: 39772160 bytes/37MB} [pid: 6928|app: 0|req: 4/60] 61.77.118.91 () {52 vars in 1289 bytes} [Wed Dec  4 02:52:08 2019] POST /admin/login/user/3/delete/ => generated 0 bytes in 22 msecs (HTTP/1.1 302) 9 headers in 642 bytes (1 switches on core 0)
+{address space usage: 120754176 bytes/115MB} {rss usage: 40140800 bytes/38MB} [pid: 6929|app: 0|req: 4/61] 61.77.118.91 () {46 vars in 1302 bytes} [Wed Dec  4 02:52:08 2019] GET /admin/login/user/ => generated 6512 bytes in 55 msecs (HTTP/1.1 200) 9 headers in 624 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6930|app: 0|req: 4/62] 61.77.118.91 () {42 vars in 909 bytes} [Wed Dec  4 02:52:08 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120729600 bytes/115MB} {rss usage: 40108032 bytes/38MB} [pid: 6925|app: 0|req: 4/63] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:52:10 2019] GET /admin/login/user/2/change/ => generated 7956 bytes in 52 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120213504 bytes/114MB} {rss usage: 39591936 bytes/37MB} [pid: 6931|app: 0|req: 4/64] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:52:10 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120700928 bytes/115MB} {rss usage: 40116224 bytes/38MB} [pid: 6919|app: 0|req: 5/65] 61.77.118.91 () {44 vars in 1076 bytes} [Wed Dec  4 02:52:12 2019] GET /admin/login/user/ => generated 6364 bytes in 56 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120627200 bytes/115MB} {rss usage: 39899136 bytes/38MB} [pid: 6918|app: 0|req: 5/66] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:52:13 2019] GET /admin/login/user/1/change/ => generated 7966 bytes in 53 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120758272 bytes/115MB} {rss usage: 40181760 bytes/38MB} [pid: 6920|app: 0|req: 5/67] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:52:14 2019] GET /admin/jsi18n/ => generated 8330 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120991744 bytes/115MB} {rss usage: 40267776 bytes/38MB} [pid: 6917|app: 0|req: 5/68] 61.77.118.91 () {44 vars in 1076 bytes} [Wed Dec  4 02:52:16 2019] GET /admin/login/user/ => generated 6364 bytes in 55 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120619008 bytes/115MB} {rss usage: 40042496 bytes/38MB} [pid: 6921|app: 0|req: 5/69] 61.77.118.91 () {44 vars in 1085 bytes} [Wed Dec  4 02:52:18 2019] GET /admin/login/user/2/change/ => generated 7956 bytes in 51 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120586240 bytes/115MB} {rss usage: 39907328 bytes/38MB} [pid: 6922|app: 0|req: 5/70] 61.77.118.91 () {42 vars in 918 bytes} [Wed Dec  4 02:52:18 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120721408 bytes/115MB} {rss usage: 40067072 bytes/38MB} [pid: 6916|app: 0|req: 5/71] 61.77.118.91 () {44 vars in 1076 bytes} [Wed Dec  4 02:52:20 2019] GET /admin/login/user/ => generated 6364 bytes in 55 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120737792 bytes/115MB} {rss usage: 40054784 bytes/38MB} [pid: 6923|app: 0|req: 5/72] 61.77.118.91 () {44 vars in 1087 bytes} [Wed Dec  4 02:52:22 2019] GET /admin/login/user/10/change/ => generated 7933 bytes in 53 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120598528 bytes/115MB} {rss usage: 39890944 bytes/38MB} [pid: 6924|app: 0|req: 5/73] 61.77.118.91 () {42 vars in 919 bytes} [Wed Dec  4 02:52:22 2019] GET /admin/jsi18n/ => generated 8330 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 277 bytes (1 switches on core 0)
+{address space usage: 120614912 bytes/115MB} {rss usage: 39993344 bytes/38MB} [pid: 6927|app: 0|req: 5/74] 61.77.118.91 () {44 vars in 1076 bytes} [Wed Dec  4 02:52:24 2019] GET /admin/login/user/ => generated 6364 bytes in 58 msecs (HTTP/1.1 200) 8 headers in 540 bytes (1 switches on core 0)
+{address space usage: 120455168 bytes/114MB} {rss usage: 39854080 bytes/38MB} [pid: 6926|app: 0|req: 5/75] 61.77.118.91 () {44 vars in 1057 bytes} [Wed Dec  4 02:52:28 2019] GET /admin/login/ => generated 0 bytes in 7 msecs (HTTP/1.1 302) 8 headers in 391 bytes (1 switches on core 0)
+{address space usage: 120610816 bytes/115MB} {rss usage: 39923712 bytes/38MB} [pid: 6928|app: 0|req: 5/76] 61.77.118.91 () {44 vars in 1045 bytes} [Wed Dec  4 02:52:28 2019] GET /admin/ => generated 11064 bytes in 28 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 120754176 bytes/115MB} {rss usage: 40140800 bytes/38MB} [pid: 6929|app: 0|req: 5/77] 61.77.118.91 () {44 vars in 973 bytes} [Wed Dec  4 02:52:41 2019] GET /admin/ => generated 11064 bytes in 29 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+{address space usage: 119291904 bytes/113MB} {rss usage: 38764544 bytes/36MB} [pid: 6930|app: 0|req: 5/78] 61.77.118.91 () {42 vars in 937 bytes} [Wed Dec  4 02:52:42 2019] GET / => generated 11976 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 120868864 bytes/115MB} {rss usage: 40226816 bytes/38MB} [pid: 6925|app: 0|req: 5/79] 61.77.118.91 () {44 vars in 1052 bytes} [Wed Dec  4 02:52:44 2019] GET /login/user/review/ => generated 15878 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+./login/views.py:158: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 5)
+{address space usage: 120213504 bytes/114MB} {rss usage: 39792640 bytes/37MB} [pid: 6931|app: 0|req: 5/80] 61.77.118.91 () {44 vars in 1094 bytes} [Wed Dec  4 02:53:39 2019] GET /login/user/review/myreview/10/ => generated 4520 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 120700928 bytes/115MB} {rss usage: 40116224 bytes/38MB} [pid: 6919|app: 0|req: 6/81] 209.17.96.154 () {30 vars in 412 bytes} [Wed Dec  4 02:59:01 2019] GET / => generated 11817 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+{address space usage: 120627200 bytes/115MB} {rss usage: 40046592 bytes/38MB} [pid: 6918|app: 0|req: 6/82] 61.77.118.91 () {46 vars in 1083 bytes} [Wed Dec  4 03:01:57 2019] GET /login/user/review/ => generated 15878 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+{address space usage: 120758272 bytes/115MB} {rss usage: 40181760 bytes/38MB} [pid: 6920|app: 0|req: 6/83] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:01:59 2019] POST /login/review/search/ => generated 3354 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 120991744 bytes/115MB} {rss usage: 40267776 bytes/38MB} [pid: 6917|app: 0|req: 6/84] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:02:57 2019] POST /login/review/search/ => generated 3354 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 120619008 bytes/115MB} {rss usage: 40042496 bytes/38MB} [pid: 6921|app: 0|req: 6/85] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:03:07 2019] POST /login/review/search/ => generated 4290 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+{address space usage: 120586240 bytes/115MB} {rss usage: 39907328 bytes/38MB} [pid: 6922|app: 0|req: 6/86] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:03:21 2019] POST /login/review/search/ => generated 4290 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+Wed Dec  4 03:03:49 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 18:03:54 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1eb6c60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1eb6c60 pid: 7485 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7485)
+spawned uWSGI worker 1 (pid: 7506, cores: 1)
+spawned uWSGI worker 2 (pid: 7507, cores: 1)
+spawned uWSGI worker 3 (pid: 7508, cores: 1)
+spawned uWSGI worker 4 (pid: 7509, cores: 1)
+spawned uWSGI worker 5 (pid: 7510, cores: 1)
+spawned uWSGI worker 6 (pid: 7511, cores: 1)
+spawned uWSGI worker 7 (pid: 7512, cores: 1)
+spawned uWSGI worker 8 (pid: 7513, cores: 1)
+spawned uWSGI worker 9 (pid: 7514, cores: 1)
+spawned uWSGI worker 10 (pid: 7515, cores: 1)
+spawned uWSGI worker 11 (pid: 7516, cores: 1)
+spawned uWSGI worker 12 (pid: 7517, cores: 1)
+spawned uWSGI worker 13 (pid: 7518, cores: 1)
+spawned uWSGI worker 14 (pid: 7519, cores: 1)
+spawned uWSGI worker 15 (pid: 7520, cores: 1)
+spawned uWSGI worker 16 (pid: 7521, cores: 1)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118300672 bytes/112MB} {rss usage: 38027264 bytes/36MB} [pid: 7508|app: 0|req: 1/1] 61.77.118.91 () {46 vars in 1083 bytes} [Wed Dec  4 03:03:59 2019] GET /login/user/review/ => generated 15878 bytes in 152 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118181888 bytes/112MB} {rss usage: 37810176 bytes/36MB} [pid: 7509|app: 0|req: 1/2] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:04:03 2019] POST /login/review/search/ => generated 5925 bytes in 78 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118181888 bytes/112MB} {rss usage: 37810176 bytes/36MB} [pid: 7510|app: 0|req: 1/3] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:04:10 2019] POST /login/review/search/ => generated 4290 bytes in 80 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118181888 bytes/112MB} {rss usage: 37810176 bytes/36MB} [pid: 7507|app: 0|req: 1/4] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:04:15 2019] POST /login/review/search/ => generated 5925 bytes in 77 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed Dec  4 03:06:45 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 18:06:50 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x128ac60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x128ac60 pid: 7687 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7687)
+spawned uWSGI worker 1 (pid: 7702, cores: 1)
+spawned uWSGI worker 2 (pid: 7703, cores: 1)
+spawned uWSGI worker 3 (pid: 7704, cores: 1)
+spawned uWSGI worker 4 (pid: 7705, cores: 1)
+spawned uWSGI worker 5 (pid: 7706, cores: 1)
+spawned uWSGI worker 6 (pid: 7707, cores: 1)
+spawned uWSGI worker 7 (pid: 7708, cores: 1)
+spawned uWSGI worker 8 (pid: 7709, cores: 1)
+spawned uWSGI worker 9 (pid: 7710, cores: 1)
+spawned uWSGI worker 10 (pid: 7711, cores: 1)
+spawned uWSGI worker 11 (pid: 7712, cores: 1)
+spawned uWSGI worker 12 (pid: 7713, cores: 1)
+spawned uWSGI worker 13 (pid: 7714, cores: 1)
+spawned uWSGI worker 14 (pid: 7715, cores: 1)
+spawned uWSGI worker 15 (pid: 7716, cores: 1)
+spawned uWSGI worker 16 (pid: 7717, cores: 1)
+{address space usage: 118214656 bytes/112MB} {rss usage: 37564416 bytes/35MB} [pid: 7705|app: 0|req: 1/1] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:06:55 2019] POST /login/review/search/ => generated 6006 bytes in 83 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed Dec  4 03:08:02 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 18:08:07 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x24e4c60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x24e4c60 pid: 7773 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7773)
+spawned uWSGI worker 1 (pid: 7789, cores: 1)
+spawned uWSGI worker 2 (pid: 7790, cores: 1)
+spawned uWSGI worker 3 (pid: 7791, cores: 1)
+spawned uWSGI worker 4 (pid: 7792, cores: 1)
+spawned uWSGI worker 5 (pid: 7793, cores: 1)
+spawned uWSGI worker 6 (pid: 7794, cores: 1)
+spawned uWSGI worker 7 (pid: 7795, cores: 1)
+spawned uWSGI worker 8 (pid: 7796, cores: 1)
+spawned uWSGI worker 9 (pid: 7797, cores: 1)
+spawned uWSGI worker 10 (pid: 7798, cores: 1)
+spawned uWSGI worker 11 (pid: 7799, cores: 1)
+spawned uWSGI worker 12 (pid: 7800, cores: 1)
+spawned uWSGI worker 13 (pid: 7801, cores: 1)
+spawned uWSGI worker 14 (pid: 7802, cores: 1)
+spawned uWSGI worker 15 (pid: 7803, cores: 1)
+spawned uWSGI worker 16 (pid: 7804, cores: 1)
+{address space usage: 118173696 bytes/112MB} {rss usage: 37560320 bytes/35MB} [pid: 7792|app: 0|req: 1/1] 61.77.118.91 () {52 vars in 1271 bytes} [Wed Dec  4 03:08:10 2019] POST /login/review/search/ => generated 5952 bytes in 79 msecs (HTTP/1.1 200) 5 headers in 269 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed Dec  4 03:09:07 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 11 buried after 3 seconds
+worker 12 buried after 3 seconds
+worker 13 buried after 3 seconds
+worker 14 buried after 3 seconds
+worker 15 buried after 3 seconds
+worker 16 buried after 3 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec  3 18:09:12 2019] ***
+compiled with version: 5.4.0 20160609 on 01 December 2019 19:43:53
+os: Linux-4.4.0-1092-aws #103-Ubuntu SMP Tue Aug 27 10:21:48 UTC 2019
+nodename: ip-172-31-45-95
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/src/SW-engineering-project/reservation
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /home/ubuntu/src/SW-engineering-project/reservation/reservation.sock fd 3
+setuid() to 1000
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x167bc60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1239640 bytes (1210 KB) for 16 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x167bc60 pid: 7857 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7857)
+spawned uWSGI worker 1 (pid: 7876, cores: 1)
+spawned uWSGI worker 2 (pid: 7877, cores: 1)
+spawned uWSGI worker 3 (pid: 7878, cores: 1)
+spawned uWSGI worker 4 (pid: 7879, cores: 1)
+spawned uWSGI worker 5 (pid: 7880, cores: 1)
+spawned uWSGI worker 6 (pid: 7881, cores: 1)
+spawned uWSGI worker 7 (pid: 7882, cores: 1)
+spawned uWSGI worker 8 (pid: 7883, cores: 1)
+spawned uWSGI worker 9 (pid: 7884, cores: 1)
+spawned uWSGI worker 10 (pid: 7885, cores: 1)
+spawned uWSGI worker 11 (pid: 7886, cores: 1)
+spawned uWSGI worker 12 (pid: 7887, cores: 1)
+spawned uWSGI worker 13 (pid: 7888, cores: 1)
+spawned uWSGI worker 14 (pid: 7889, cores: 1)
+spawned uWSGI worker 15 (pid: 7890, cores: 1)
+spawned uWSGI worker 16 (pid: 7891, cores: 1)
+./login/views.py:106: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'login.models.Review'> QuerySet.
+  paginator = Paginator(reviews, 6)
+{address space usage: 118210560 bytes/112MB} {rss usage: 37793792 bytes/36MB} [pid: 7878|app: 0|req: 1/1] 61.77.118.91 () {44 vars in 1072 bytes} [Wed Dec  4 03:09:15 2019] GET /login/user/review/ => generated 15905 bytes in 92 msecs (HTTP/1.1 200) 6 headers in 438 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+{address space usage: 118222848 bytes/112MB} {rss usage: 37027840 bytes/35MB} [pid: 7880|app: 0|req: 1/2] 139.162.119.197 () {32 vars in 403 bytes} [Wed Dec  4 03:11:03 2019] GET / => generated 11817 bytes in 82 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
